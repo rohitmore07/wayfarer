@@ -39,7 +39,7 @@ interface DB {
   documents: StoredDocument[];
 }
 
-const DB_DIR = path.join(process.cwd(), 'data');
+const DB_DIR = process.env.VERCEL ? '/tmp/wayfarer' : path.join(process.cwd(), 'data');
 const DB_FILE = path.join(DB_DIR, 'db.json');
 
 const EMPTY: DB = { version: 1, users: [], sessions: [], trips: [], conversations: [], documents: [] };
