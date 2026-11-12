@@ -30,7 +30,7 @@ export async function POST(req: Request, { params }: Ctx) {
   const user = await getCurrentUser();
   if (!user) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
   const { id } = await params;
-  const trip = getTrip(user.id, id);
+  const trip = await getTrip(user.id, id);
   if (!trip) return NextResponse.json({ error: 'Trip not found' }, { status: 404 });
 
   try {
@@ -69,7 +69,7 @@ export async function POST(req: Request, { params }: Ctx) {
       title: trip.title,
     });
 
-    saveTrip(updated);
+    await saveTrip(updated);
     return NextResponse.json({ trip: updated, reply: result.reply, changed: result.changed });
   } catch (err) {
     console.error('[trips] chat failed', err);

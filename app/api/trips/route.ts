@@ -9,7 +9,7 @@ export const runtime = 'nodejs';
 export async function GET() {
   const user = await getCurrentUser();
   if (!user) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
-  return NextResponse.json({ trips: listTrips(user.id) });
+  return NextResponse.json({ trips: await listTrips(user.id) });
 }
 
 export async function POST(req: Request) {
@@ -19,7 +19,7 @@ export async function POST(req: Request) {
     const { plan, title } = (await req.json()) as { plan: PlanPayload; title?: string };
     if (!plan?.brief?.cityIds?.length) return NextResponse.json({ error: 'Invalid plan' }, { status: 400 });
     const trip = buildTripFromPlan(user.id, plan, title ? { title } : {});
-    saveTrip(trip);
+    await saveTrip(trip);
     return NextResponse.json({ trip });
   } catch (err) {
     console.error('[trips] create failed', err);

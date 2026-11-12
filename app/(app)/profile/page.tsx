@@ -10,7 +10,7 @@ export const metadata = { title: 'Profile & settings — Wayfarer' };
 export default async function ProfilePage() {
   const user = await getCurrentUser();
   if (!user) redirect('/login');
-  const trips = listTrips(user.id);
+  const trips = await listTrips(user.id);
   const countries = new Set(
     trips.flatMap((t) => t.brief.cityIds.map((id) => cityById(id)?.country).filter(Boolean))
   );

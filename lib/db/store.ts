@@ -1,15 +1,14 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
+import { Pool } from 'pg';
 import type { ChatMessage, Session, Trip, User } from '@/lib/types';
-import { scryptSync, randomBytes, timingSafeEqual } from 'node:crypto';
 
 /**
- * Persistence layer.
+ * Persistence layer — PostgreSQL.
  *
- * A single JSON document store keeps the demo zero-setup (no Postgres daemon
- * required in the sandbox) while exposing the same repository shape you would
- * implement over Prisma. `prisma/schema.prisma` in this repo is the production
- * schema; swapping this file for Prisma queries touches nothing else in the app.
+ * Each table stores its record as JSONB in a `data` column, with the columns
+ * we filter or sort on (id, user_id, email, expires_at, updated_at) broken out.
+ * Every export is async. Set DATABASE_URL (or POSTGRES_URL, which Vercel
+ * Postgres / Neon set automatically) to your connection string.
  */
 
 export interface Conversation {
@@ -30,67 +29,74 @@ export interface StoredDocument {
   createdAt: string;
 }
 
-interface DB {
-  version: number;
-  users: User[];
-  sessions: Session[];
-  trips: Trip[];
-  conversations: Conversation[];
-  documents: StoredDocument[];
-}
+/* ------------------------------ connection ------------------------------ */
 
-const DB_DIR = process.env.VERCEL ? '/tmp/wayfarer' : path.join(process.cwd(), 'data');
-const DB_FILE = path.join(DB_DIR, 'db.json');
+const g = globalThis as unknown as {
+  __wayfarerPool?: Pool;
+  __wayfarerSchema?: Promise<void>;
+};
 
-const EMPTY: DB = { version: 1, users: [], sessions: [], trips: [], conversations: [], documents: [] };
-
-let cache: DB | null = null;
-let writeQueue: Promise<void> = Promise.resolve();
-
-function ensureDir() {
-  if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
-}
-
-function load(): DB {
-  if (cache) return cache;
-  ensureDir();
-  if (!fs.existsSync(DB_FILE)) {
-    cache = { ...EMPTY };
-    persist(cache);
-    return cache;
+function pool(): Pool {
+  if (!g.__wayfarerPool) {
+    const url = process.env.DATABASE_URL || process.env.POSTGRES_URL;
+    if (!url) throw new Error('DATABASE_URL is not set. Add your Postgres connection string.');
+    g.__wayfarerPool = new Pool({
+      connectionString: url,
+      max: 5,
+      ssl: /sslmode=require|neon\.tech|supabase/.test(url) ? { rejectUnauthorized: false } : undefined,
+    });
   }
-  try {
-    const parsed = JSON.parse(fs.readFileSync(DB_FILE, 'utf8')) as DB;
-    cache = { ...EMPTY, ...parsed };
-  } catch {
-    cache = { ...EMPTY };
+  return g.__wayfarerPool;
+}
+
+function ensureSchema(): Promise<void> {
+  if (!g.__wayfarerSchema) {
+    g.__wayfarerSchema = pool()
+      .query(`
+        CREATE TABLE IF NOT EXISTS wf_users (
+          id TEXT PRIMARY KEY,
+          email TEXT UNIQUE NOT NULL,
+          data JSONB NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS wf_sessions (
+          token TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          expires_at TIMESTAMPTZ NOT NULL,
+          data JSONB NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS wf_trips (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          updated_at TIMESTAMPTZ NOT NULL,
+          data JSONB NOT NULL
+        );
+        CREATE INDEX IF NOT EXISTS wf_trips_user_idx ON wf_trips (user_id);
+        CREATE TABLE IF NOT EXISTS wf_conversations (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          updated_at TIMESTAMPTZ NOT NULL,
+          data JSONB NOT NULL
+        );
+        CREATE INDEX IF NOT EXISTS wf_conversations_user_idx ON wf_conversations (user_id);
+        CREATE TABLE IF NOT EXISTS wf_documents (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          data JSONB NOT NULL
+        );
+        CREATE INDEX IF NOT EXISTS wf_documents_user_idx ON wf_documents (user_id);
+      `)
+      .then(() => undefined)
+      .catch((err) => {
+        g.__wayfarerSchema = undefined;
+        throw err;
+      });
   }
-  return cache!;
+  return g.__wayfarerSchema;
 }
 
-function persist(db: DB) {
-  ensureDir();
-  const tmp = `${DB_FILE}.tmp`;
-  fs.writeFileSync(tmp, JSON.stringify(db, null, 2));
-  fs.renameSync(tmp, DB_FILE);
-}
-
-/** Mutate the store atomically. */
-export function mutate<T>(fn: (db: DB) => T): T {
-  const db = load();
-  const result = fn(db);
-  writeQueue = writeQueue.then(() => {
-    try {
-      persist(db);
-    } catch (err) {
-      console.error('[db] write failed', err);
-    }
-  });
-  return result;
-}
-
-export function read<T>(fn: (db: DB) => T): T {
-  return fn(load());
+async function query<R extends object = Record<string, unknown>>(text: string, params: unknown[] = []) {
+  await ensureSchema();
+  return pool().query<R>(text, params);
 }
 
 /* ---------------------------------- auth --------------------------------- */
@@ -111,21 +117,23 @@ export function verifyPassword(password: string, stored: string): boolean {
 
 export const AVATAR_COLORS = ['#C05B34', '#2F5F57', '#A97E33', '#3F6E8C', '#8A3A20'];
 
-export function findUserByEmail(email: string): User | undefined {
-  return read((db) => db.users.find((u) => u.email.toLowerCase() === email.toLowerCase()));
+export async function findUserByEmail(email: string): Promise<User | undefined> {
+  const res = await query<{ data: User }>('SELECT data FROM wf_users WHERE email = $1', [email.trim().toLowerCase()]);
+  return res.rows[0]?.data;
 }
 
-export function findUserById(id: string): User | undefined {
-  return read((db) => db.users.find((u) => u.id === id));
+export async function findUserById(id: string): Promise<User | undefined> {
+  const res = await query<{ data: User }>('SELECT data FROM wf_users WHERE id = $1', [id]);
+  return res.rows[0]?.data;
 }
 
-export function createUser(input: {
+export async function createUser(input: {
   name: string;
   email: string;
   password: string;
   homeCity?: string;
   homeAirport?: string;
-}): User {
+}): Promise<User> {
   const user: User = {
     id: `usr_${randomBytes(6).toString('hex')}`,
     name: input.name.trim(),
@@ -146,122 +154,133 @@ export function createUser(input: {
     savedFlights: [],
     savedActivities: [],
   };
-  mutate((db) => {
-    db.users.push(user);
-  });
+  await query('INSERT INTO wf_users (id, email, data) VALUES ($1, $2, $3)', [user.id, user.email, user]);
   return user;
 }
 
-export function updateUser(userId: string, patch: Partial<User>): User | undefined {
-  return mutate((db) => {
-    const idx = db.users.findIndex((u) => u.id === userId);
-    if (idx < 0) return undefined;
-    db.users[idx] = { ...db.users[idx], ...patch, id: userId };
-    return db.users[idx];
-  });
+export async function updateUser(userId: string, patch: Partial<User>): Promise<User | undefined> {
+  // Postgres merges the JSONB objects atomically; id is never changed.
+  const { id: _ignored, ...rest } = patch;
+  const res = await query<{ data: User }>(
+    'UPDATE wf_users SET data = data || $2::jsonb WHERE id = $1 RETURNING data',
+    [userId, JSON.stringify(rest)]
+  );
+  return res.rows[0]?.data;
 }
 
-export function createSession(userId: string): Session {
+export async function createSession(userId: string): Promise<Session> {
   const session: Session = {
     token: randomBytes(24).toString('hex'),
     userId,
     createdAt: new Date().toISOString(),
     expiresAt: new Date(Date.now() + 1000 * 60 * 60 * 24 * 30).toISOString(),
   };
-  mutate((db) => {
-    db.sessions = db.sessions.filter((s) => new Date(s.expiresAt).getTime() > Date.now());
-    db.sessions.push(session);
-  });
+  await query('DELETE FROM wf_sessions WHERE expires_at < now()');
+  await query('INSERT INTO wf_sessions (token, user_id, expires_at, data) VALUES ($1, $2, $3, $4)', [
+    session.token,
+    userId,
+    session.expiresAt,
+    session,
+  ]);
   return session;
 }
 
-export function getSession(token: string | undefined): Session | undefined {
+export async function getSession(token: string | undefined): Promise<Session | undefined> {
   if (!token) return undefined;
-  return read((db) =>
-    db.sessions.find((s) => s.token === token && new Date(s.expiresAt).getTime() > Date.now())
+  const res = await query<{ data: Session }>(
+    'SELECT data FROM wf_sessions WHERE token = $1 AND expires_at > now()',
+    [token]
   );
+  return res.rows[0]?.data;
 }
 
-export function deleteSession(token: string) {
-  mutate((db) => {
-    db.sessions = db.sessions.filter((s) => s.token !== token);
-  });
+export async function deleteSession(token: string) {
+  await query('DELETE FROM wf_sessions WHERE token = $1', [token]);
 }
 
 /* ---------------------------------- trips -------------------------------- */
 
-export function listTrips(userId: string): Trip[] {
-  return read((db) =>
-    db.trips
-      .filter((t) => t.userId === userId)
-      .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+export async function listTrips(userId: string): Promise<Trip[]> {
+  const res = await query<{ data: Trip }>(
+    'SELECT data FROM wf_trips WHERE user_id = $1 ORDER BY updated_at DESC',
+    [userId]
   );
+  return res.rows.map((r) => r.data);
 }
 
-export function getTrip(userId: string, tripId: string): Trip | undefined {
-  return read((db) => db.trips.find((t) => t.id === tripId && t.userId === userId));
+export async function getTrip(userId: string, tripId: string): Promise<Trip | undefined> {
+  const res = await query<{ data: Trip }>('SELECT data FROM wf_trips WHERE id = $1 AND user_id = $2', [
+    tripId,
+    userId,
+  ]);
+  return res.rows[0]?.data;
 }
 
-export function saveTrip(trip: Trip): Trip {
-  mutate((db) => {
-    const idx = db.trips.findIndex((t) => t.id === trip.id);
-    if (idx >= 0) db.trips[idx] = trip;
-    else db.trips.push(trip);
-  });
+export async function saveTrip(trip: Trip): Promise<Trip> {
+  await query(
+    `INSERT INTO wf_trips (id, user_id, updated_at, data) VALUES ($1, $2, $3, $4)
+     ON CONFLICT (id) DO UPDATE SET user_id = EXCLUDED.user_id, updated_at = EXCLUDED.updated_at, data = EXCLUDED.data`,
+    [trip.id, trip.userId, trip.updatedAt, trip]
+  );
   return trip;
 }
 
-export function deleteTrip(userId: string, tripId: string) {
-  mutate((db) => {
-    db.trips = db.trips.filter((t) => !(t.id === tripId && t.userId === userId));
-  });
+export async function deleteTrip(userId: string, tripId: string) {
+  await query('DELETE FROM wf_trips WHERE id = $1 AND user_id = $2', [tripId, userId]);
 }
 
 /* ------------------------------- conversations ---------------------------- */
 
-export function listConversations(userId: string): Conversation[] {
-  return read((db) =>
-    db.conversations
-      .filter((c) => c.userId === userId)
-      .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+export async function listConversations(userId: string): Promise<Conversation[]> {
+  const res = await query<{ data: Conversation }>(
+    'SELECT data FROM wf_conversations WHERE user_id = $1 ORDER BY updated_at DESC',
+    [userId]
   );
+  return res.rows.map((r) => r.data);
 }
 
-export function upsertConversation(conv: Conversation): Conversation {
-  mutate((db) => {
-    const idx = db.conversations.findIndex((c) => c.id === conv.id);
-    if (idx >= 0) db.conversations[idx] = conv;
-    else db.conversations.push(conv);
-  });
+export async function upsertConversation(conv: Conversation): Promise<Conversation> {
+  await query(
+    `INSERT INTO wf_conversations (id, user_id, updated_at, data) VALUES ($1, $2, $3, $4)
+     ON CONFLICT (id) DO UPDATE SET user_id = EXCLUDED.user_id, updated_at = EXCLUDED.updated_at, data = EXCLUDED.data`,
+    [conv.id, conv.userId, conv.updatedAt, conv]
+  );
   return conv;
 }
 
 /* -------------------------------- documents ------------------------------- */
 
-export function listDocuments(userId: string): StoredDocument[] {
-  return read((db) => db.documents.filter((d) => d.userId === userId));
+export async function listDocuments(userId: string): Promise<StoredDocument[]> {
+  const res = await query<{ data: StoredDocument }>('SELECT data FROM wf_documents WHERE user_id = $1', [userId]);
+  return res.rows.map((r) => r.data);
 }
 
-export function addDocument(doc: StoredDocument) {
-  mutate((db) => {
-    db.documents.push(doc);
-  });
+export async function addDocument(doc: StoredDocument) {
+  await query('INSERT INTO wf_documents (id, user_id, data) VALUES ($1, $2, $3)', [doc.id, doc.userId, doc]);
 }
 
 /* --------------------------------- seeding -------------------------------- */
 
-export function ensureDemoUser(): User {
-  const existing = findUserByEmail('demo@wayfarer.ai');
+export async function ensureDemoUser(): Promise<User> {
+  const existing = await findUserByEmail('demo@wayfarer.ai');
   if (existing) return existing;
-  const user = createUser({
-    name: 'Aarav Mehta',
-    email: 'demo@wayfarer.ai',
-    password: 'demo1234',
-    homeCity: 'Mumbai',
-    homeAirport: 'BOM',
-  });
+  let user: User;
+  try {
+    user = await createUser({
+      name: 'Aarav Mehta',
+      email: 'demo@wayfarer.ai',
+      password: 'demo1234',
+      homeCity: 'Mumbai',
+      homeAirport: 'BOM',
+    });
+  } catch {
+    // Another request created the demo user at the same moment (unique email).
+    const again = await findUserByEmail('demo@wayfarer.ai');
+    if (again) return again;
+    throw new Error('Could not create the demo account');
+  }
   return (
-    updateUser(user.id, {
+    (await updateUser(user.id, {
       preferences: {
         interests: ['culture', 'food', 'photography', 'nature'],
         hotelClass: 'comfort',
@@ -269,9 +288,6 @@ export function ensureDemoUser(): User {
         currency: 'INR',
       },
       savedDestinations: ['kyoto', 'reykjavik', 'bali'],
-    }) ?? user
+    })) ?? user
   );
 }
-
-export const dbPath = DB_FILE;
-export type { DB };

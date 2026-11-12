@@ -22,13 +22,13 @@ export interface AuthResult {
 export async function getCurrentUser(): Promise<User | null> {
   const store = await cookies();
   const token = store.get(SESSION_COOKIE)?.value;
-  const session = getSession(token);
+  const session = await getSession(token);
   if (!session) return null;
-  return findUserById(session.userId) ?? null;
+  return (await findUserById(session.userId)) ?? null;
 }
 
 export async function setSessionCookie(userId: string) {
-  const session = createSession(userId);
+  const session = await createSession(userId);
   const store = await cookies();
   store.set(SESSION_COOKIE, session.token, {
     httpOnly: true,
@@ -42,7 +42,7 @@ export async function setSessionCookie(userId: string) {
 export async function clearSessionCookie() {
   const store = await cookies();
   const token = store.get(SESSION_COOKIE)?.value;
-  if (token) deleteSession(token);
+  if (token) await deleteSession(token);
   store.delete(SESSION_COOKIE);
 }
 
@@ -51,15 +51,15 @@ export async function signUp(input: { name: string; email: string; password: str
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return { ok: false, error: 'Enter a valid email address.' };
   if (input.password.length < 8) return { ok: false, error: 'Password must be at least 8 characters.' };
   if (!input.name.trim()) return { ok: false, error: 'Please tell us your name.' };
-  if (findUserByEmail(email)) return { ok: false, error: 'An account with this email already exists.' };
+  if (await findUserByEmail(email)) return { ok: false, error: 'An account with this email already exists.' };
 
-  const user = createUser(input);
+  const user = await createUser(input);
   await setSessionCookie(user.id);
   return { ok: true, user };
 }
 
 export async function signIn(input: { email: string; password: string }): Promise<AuthResult> {
-  const user = findUserByEmail(input.email);
+  const user = await findUserByEmail(input.email);
   if (!user) return { ok: false, error: 'No account found with that email.' };
   if (!verifyPassword(input.password, user.passwordHash)) return { ok: false, error: 'Incorrect password.' };
   await setSessionCookie(user.id);
@@ -67,7 +67,7 @@ export async function signIn(input: { email: string; password: string }): Promis
 }
 
 export async function signInDemo(): Promise<AuthResult> {
-  const user = ensureDemoUser();
+  const user = await ensureDemoUser();
   await setSessionCookie(user.id);
   return { ok: true, user };
 }

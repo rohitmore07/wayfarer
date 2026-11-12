@@ -7,7 +7,7 @@ export default async function TripPage({ params }: { params: Promise<{ id: strin
   const user = await getCurrentUser();
   if (!user) redirect('/login');
   const { id } = await params;
-  const trip = getTrip(user.id, id);
+  const trip = await getTrip(user.id, id);
   if (!trip) notFound();
   return <TripDetailClient initialTrip={trip} />;
 }

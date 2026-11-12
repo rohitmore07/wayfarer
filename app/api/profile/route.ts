@@ -11,7 +11,7 @@ export async function PATCH(req: Request) {
     const patch = await req.json();
     const allowed = ['name', 'homeCity', 'homeAirport', 'preferences', 'avatarColor'];
     const clean = Object.fromEntries(Object.entries(patch).filter(([k]) => allowed.includes(k)));
-    const updated = updateUser(user.id, clean);
+    const updated = await updateUser(user.id, clean);
     if (!updated) return NextResponse.json({ error: 'Update failed' }, { status: 500 });
     return NextResponse.json({ user: publicUser(updated) });
   } catch {

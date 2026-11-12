@@ -9,7 +9,7 @@ export const metadata = { title: 'My trips — Wayfarer' };
 export default async function TripsPage() {
   const user = await getCurrentUser();
   if (!user) redirect('/login');
-  const trips = listTrips(user.id);
+  const trips = await listTrips(user.id);
 
   return (
     <div>

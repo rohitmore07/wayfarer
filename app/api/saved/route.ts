@@ -15,7 +15,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Unknown list' }, { status: 400 });
     const list = user[kind] ?? [];
     const next = list.includes(id) ? list.filter((x) => x !== id) : [...list, id];
-    const updated = updateUser(user.id, { [kind]: next } as never);
+    const updated = await updateUser(user.id, { [kind]: next } as never);
     return NextResponse.json({ user: updated ? publicUser(updated) : null, saved: next.includes(id) });
   } catch {
     return NextResponse.json({ error: 'Could not update favourites.' }, { status: 500 });

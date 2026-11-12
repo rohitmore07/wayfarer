@@ -13,7 +13,7 @@ export const metadata = { title: 'Budget planner — Wayfarer' };
 export default async function BudgetPage() {
   const user = await getCurrentUser();
   if (!user) redirect('/login');
-  const trips = listTrips(user.id);
+  const trips = await listTrips(user.id);
 
   return (
     <div>

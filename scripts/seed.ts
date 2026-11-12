@@ -26,8 +26,8 @@ const SCENARIOS: { text: string; status?: Trip['status']; sample?: boolean }[] =
 ];
 
 async function main() {
-  const user = ensureDemoUser();
-  const existing = listTrips(user.id);
+  const user = await ensureDemoUser();
+  const existing = await listTrips(user.id);
   if (existing.length) {
     console.log(`Demo account already has ${existing.length} trips — skipping.`);
     return;
@@ -61,7 +61,7 @@ async function main() {
       trip.savedActivityIds = [trip.itinerary[0]?.activities[0]?.poiId].filter(Boolean) as string[];
     }
 
-    saveTrip(trip);
+    await saveTrip(trip);
     console.log(`Seeded "${trip.title}" — ${trip.brief.days} days, ₹${trip.budget.perPerson.toLocaleString('en-IN')} pp`);
   }
 }
