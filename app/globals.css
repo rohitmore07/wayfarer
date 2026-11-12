@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'InterLocal';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/fonts/inter.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'InstrumentSerif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/instrument-serif.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'InstrumentSerif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/instrument-serif-italic.woff2') format('woff2');
+}
+
+:root {
+  --font-inter: 'InterLocal';
+  --font-display: 'InstrumentSerif';
+  --header-h: 72px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @apply bg-ivory text-ink font-sans;
+  font-feature-settings: 'cv05' 1, 'ss01' 1;
+}
+
+::selection {
+  background: #f0d9cd;
+  color: #17150f;
+}
+
+/* Scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d8d0c0 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #ddd5c6;
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1240px] px-5 sm:px-8;
+  }
+  .display {
+    @apply font-display font-normal tracking-[-0.01em];
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-white shadow-card;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lift;
+  }
+  .label-caps {
+    @apply text-2xs font-medium uppercase tracking-[0.14em] text-ink-faint;
+  }
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 rounded-full text-sm font-medium transition-all duration-200 disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-ink px-5 py-2.5 text-ivory hover:bg-clay-600 active:scale-[0.99];
+  }
+  .btn-clay {
+    @apply btn bg-clay-500 px-5 py-2.5 text-white hover:bg-clay-600 active:scale-[0.99];
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-white px-5 py-2.5 text-ink-soft hover:border-line-strong hover:text-ink;
+  }
+  .btn-quiet {
+    @apply btn px-3 py-2 text-ink-mute hover:bg-sand hover:text-ink;
+  }
+  .field {
+    @apply w-full rounded-xl border border-line bg-white px-3.5 py-2.5 text-sm text-ink outline-none transition placeholder:text-ink-faint focus:border-clay-300 focus:ring-4 focus:ring-clay-100;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-3 py-1.5 text-xs font-medium text-ink-soft transition hover:border-line-strong;
+  }
+  .chip-active {
+    @apply border-ink bg-ink text-ivory hover:border-ink;
+  }
+  .surface-grid {
+    background-image: linear-gradient(to right, rgba(23, 21, 15, 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(23, 21, 15, 0.045) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Subtle paper grain used on hero + panels */
+.grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.22'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+
+.shimmer-track {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-track::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+  animation: shimmer 1.6s infinite;
+}
+
+/* typing dots */
+.dot-typing span {
+  animation: dotPulse 1.2s infinite ease-in-out;
+}
+.dot-typing span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.dot-typing span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes dotPulse {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+.drag-over {
+  outline: 2px dashed #d0784f;
+  outline-offset: 3px;
+  background: #fdf6f2;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

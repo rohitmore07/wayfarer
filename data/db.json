@@ -1,0 +1,3711 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "usr_848212e1e60a",
+      "name": "Aarav Mehta",
+      "email": "demo@wayfarer.ai",
+      "passwordHash": "975a34e18e0482f25b8646f17ba47d50:c01e601cc96e9455ca043e6851c99ed8df66a8fd121a3f004a0d3936ef6d2c4e70ee3e850401687ff9d3a83379bdad0c34d5cc416b122c5f9cd563af18e70319",
+      "createdAt": "2026-11-12T15:33:01.926Z",
+      "avatarColor": "#2F5F57",
+      "homeCity": "Mumbai",
+      "homeAirport": "BOM",
+      "preferences": {
+        "interests": [
+          "culture",
+          "food",
+          "photography",
+          "nature"
+        ],
+        "hotelClass": "comfort",
+        "pace": "balanced",
+        "currency": "INR"
+      },
+      "savedDestinations": [
+        "kyoto",
+        "reykjavik",
+        "bali"
+      ],
+      "savedHotels": [],
+      "savedFlights": [],
+      "savedActivities": []
+    }
+  ],
+  "sessions": [
+    {
+      "token": "f7f4b62671f34611b37602ba434bd9b9b7cbfe5806079d85",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:38:10.913Z",
+      "expiresAt": "2026-12-12T15:38:10.913Z"
+    },
+    {
+      "token": "4aec7c0485a9adc11999d9553288913dfa28ab3d18336069",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:38:57.971Z",
+      "expiresAt": "2026-12-12T15:38:57.971Z"
+    },
+    {
+      "token": "cee478b2236cf8dbf0f13d687b8d547b302fd3b1806238ec",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:39:09.932Z",
+      "expiresAt": "2026-12-12T15:39:09.932Z"
+    },
+    {
+      "token": "6fb810de7fbb4ff990c1a6a9c2e256dfdcc81e65d10b17bf",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:42:01.207Z",
+      "expiresAt": "2026-12-12T15:42:01.207Z"
+    },
+    {
+      "token": "68c8225b1dfdcb85b3e91b4c59a77332ae81c5dc31b97e32",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:50:55.455Z",
+      "expiresAt": "2026-12-12T15:50:55.455Z"
+    },
+    {
+      "token": "c6d0328d1deea861905484be9960206e2db3e0d1fb4d02fa",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:53:49.612Z",
+      "expiresAt": "2026-12-12T15:53:49.612Z"
+    },
+    {
+      "token": "c5f5b34b8c53b58098fa6e12b97dd54938e8e386dda06193",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:55:44.853Z",
+      "expiresAt": "2026-12-12T15:55:44.853Z"
+    },
+    {
+      "token": "e071fe5ef5b7ce321874e2d98a96292c0b021f07ba282e70",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:57:26.368Z",
+      "expiresAt": "2026-12-12T15:57:26.368Z"
+    },
+    {
+      "token": "641353f4b9a45f2ef76eb55498b194e258b8455e25e87012",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:58:30.603Z",
+      "expiresAt": "2026-12-12T15:58:30.603Z"
+    },
+    {
+      "token": "7646b0fdfdbebb2827b87cc4173560e9748d2c61c7151d36",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T15:59:47.897Z",
+      "expiresAt": "2026-12-12T15:59:47.897Z"
+    },
+    {
+      "token": "8ee199c1269a29ecd04d4493125a19f54b53e21db65bf5b4",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T16:00:06.437Z",
+      "expiresAt": "2026-12-12T16:00:06.437Z"
+    },
+    {
+      "token": "ec3d10298e76b685ce4d6471e161c3594aa625a6f03b1594",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T16:00:52.069Z",
+      "expiresAt": "2026-12-12T16:00:52.069Z"
+    },
+    {
+      "token": "8fe584c4620019ceee56d4cccb98d5f903f10c38805ab759",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T16:02:56.931Z",
+      "expiresAt": "2026-12-12T16:02:56.931Z"
+    },
+    {
+      "token": "ee15876dc5fdb0f4beb9a083209bdb0c1726f1af06fab453",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T16:04:29.417Z",
+      "expiresAt": "2026-12-12T16:04:29.417Z"
+    },
+    {
+      "token": "2344063e60ed95b489df65642f9305dcf87cfa210da7c54d",
+      "userId": "usr_848212e1e60a",
+      "createdAt": "2026-11-12T16:40:48.464Z",
+      "expiresAt": "2026-12-12T16:40:48.464Z"
+    }
+  ],
+  "trips": [
+    {
+      "id": "trip_ll08k73d",
+      "userId": "usr_848212e1e60a",
+      "title": "Tokyo · Kyoto · Osaka",
+      "subtitle": "7 days · 2 travellers · from Mumbai",
+      "status": "upcoming",
+      "createdAt": "2026-11-12T15:33:02.752Z",
+      "updatedAt": "2026-11-12T15:33:02.752Z",
+      "brief": {
+        "originCity": "Mumbai",
+        "originCode": "BOM",
+        "destinationQuery": "Tokyo, Kyoto, Osaka",
+        "cityIds": [
+          "tokyo",
+          "kyoto",
+          "osaka"
+        ],
+        "startDate": "2027-03-12",
+        "days": 7,
+        "travelers": 2,
+        "budgetPerPerson": 150000,
+        "interests": [
+          "culture",
+          "food",
+          "nature",
+          "art",
+          "history",
+          "photography",
+          "anime"
+        ],
+        "hotelClass": "comfort",
+        "pace": "balanced",
+        "avoidEarlyMornings": false
+      },
+      "coverImage": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1800&q=80",
+      "startDate": "2027-03-12",
+      "endDate": "2027-03-18",
+      "travelers": 2,
+      "cities": [
+        {
+          "cityId": "tokyo",
+          "name": "Tokyo",
+          "nights": 3
+        },
+        {
+          "cityId": "kyoto",
+          "name": "Kyoto",
+          "nights": 2
+        },
+        {
+          "cityId": "osaka",
+          "name": "Osaka",
+          "nights": 2
+        }
+      ],
+      "flights": [
+        {
+          "id": "out-BOMNRT-2027-03-12-1",
+          "carrier": "AI",
+          "carrierName": "Air India",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T01:15:00.000Z",
+          "arriveAt": "2027-03-12T14:49:00.000Z",
+          "durationMin": 814,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "BLR",
+              "minutes": 194
+            },
+            {
+              "airport": "BLR",
+              "minutes": 259
+            }
+          ],
+          "price": 17300,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": true,
+          "seatsLeft": 1,
+          "tags": [
+            "cheapest"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "BLR",
+              "departAt": "2027-03-12T01:15:00.000Z",
+              "arriveAt": "2027-03-12T04:16:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 505",
+              "durationMin": 181
+            },
+            {
+              "from": "BLR",
+              "to": "BLR",
+              "departAt": "2027-03-12T07:30:00.000Z",
+              "arriveAt": "2027-03-12T10:31:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 954",
+              "durationMin": 181
+            },
+            {
+              "from": "BLR",
+              "to": "NRT",
+              "departAt": "2027-03-12T14:50:00.000Z",
+              "arriveAt": "2027-03-12T17:51:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 536",
+              "durationMin": 181
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 881
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-8",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T03:40:00.000Z",
+          "arriveAt": "2027-03-12T23:32:00.000Z",
+          "durationMin": 1192,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "DXB",
+              "minutes": 169
+            },
+            {
+              "airport": "DXB",
+              "minutes": 242
+            }
+          ],
+          "price": 17900,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DXB",
+              "departAt": "2027-03-12T03:40:00.000Z",
+              "arriveAt": "2027-03-12T08:47:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 175",
+              "durationMin": 307
+            },
+            {
+              "from": "DXB",
+              "to": "DXB",
+              "departAt": "2027-03-12T11:36:00.000Z",
+              "arriveAt": "2027-03-12T16:43:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 564",
+              "durationMin": 307
+            },
+            {
+              "from": "DXB",
+              "to": "NRT",
+              "departAt": "2027-03-12T20:45:00.000Z",
+              "arriveAt": "2027-03-13T01:52:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 428",
+              "durationMin": 307
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 881
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-6",
+          "carrier": "MH",
+          "carrierName": "Malaysia Airlines",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T19:25:00.000Z",
+          "arriveAt": "2027-03-13T10:29:00.000Z",
+          "durationMin": 904,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "KUL",
+              "minutes": 137
+            },
+            {
+              "airport": "KUL",
+              "minutes": 234
+            }
+          ],
+          "price": 18500,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 4,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "KUL",
+              "departAt": "2027-03-12T19:25:00.000Z",
+              "arriveAt": "2027-03-12T22:56:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 500",
+              "durationMin": 211
+            },
+            {
+              "from": "KUL",
+              "to": "KUL",
+              "departAt": "2027-03-13T01:13:00.000Z",
+              "arriveAt": "2027-03-13T04:44:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 459",
+              "durationMin": 211
+            },
+            {
+              "from": "KUL",
+              "to": "NRT",
+              "departAt": "2027-03-13T08:38:00.000Z",
+              "arriveAt": "2027-03-13T12:09:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 918",
+              "durationMin": 211
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 881
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-0",
+          "carrier": "AI",
+          "carrierName": "Air India",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T08:25:00.000Z",
+          "arriveAt": "2027-03-12T22:20:00.000Z",
+          "durationMin": 835,
+          "stops": 1,
+          "layovers": [
+            {
+              "airport": "BOM",
+              "minutes": 330
+            }
+          ],
+          "price": 22000,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "BOM",
+              "departAt": "2027-03-12T08:25:00.000Z",
+              "arriveAt": "2027-03-12T13:52:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 924",
+              "durationMin": 327
+            },
+            {
+              "from": "BOM",
+              "to": "NRT",
+              "departAt": "2027-03-12T19:22:00.000Z",
+              "arriveAt": "2027-03-13T00:49:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 299",
+              "durationMin": 327
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 881
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-3",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T07:25:00.000Z",
+          "arriveAt": "2027-03-12T16:59:00.000Z",
+          "durationMin": 574,
+          "stops": 0,
+          "layovers": [],
+          "price": 22800,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "tags": [
+            "recommended"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "NRT",
+              "departAt": "2027-03-12T07:25:00.000Z",
+              "arriveAt": "2027-03-12T16:59:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 931",
+              "durationMin": 574
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 747
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-5",
+          "carrier": "AI",
+          "carrierName": "Air India",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T19:15:00.000Z",
+          "arriveAt": "2027-03-13T04:49:00.000Z",
+          "durationMin": 574,
+          "stops": 0,
+          "layovers": [],
+          "price": 23100,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 6,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "NRT",
+              "departAt": "2027-03-12T19:15:00.000Z",
+              "arriveAt": "2027-03-13T04:49:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 566",
+              "durationMin": 574
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 747
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-4",
+          "carrier": "SQ",
+          "carrierName": "Singapore Airlines",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T12:40:00.000Z",
+          "arriveAt": "2027-03-12T22:14:00.000Z",
+          "durationMin": 574,
+          "stops": 0,
+          "layovers": [],
+          "price": 24500,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 4,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "NRT",
+              "departAt": "2027-03-12T12:40:00.000Z",
+              "arriveAt": "2027-03-12T22:14:00.000Z",
+              "carrier": "SQ",
+              "carrierName": "Singapore Airlines",
+              "flightNo": "SQ 470",
+              "durationMin": 574
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 747
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-2",
+          "carrier": "SQ",
+          "carrierName": "Singapore Airlines",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T09:25:00.000Z",
+          "arriveAt": "2027-03-12T18:59:00.000Z",
+          "durationMin": 574,
+          "stops": 0,
+          "layovers": [],
+          "price": 25900,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "tags": [
+            "fastest"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "NRT",
+              "departAt": "2027-03-12T09:25:00.000Z",
+              "arriveAt": "2027-03-12T18:59:00.000Z",
+              "carrier": "SQ",
+              "carrierName": "Singapore Airlines",
+              "flightNo": "SQ 365",
+              "durationMin": 574
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 747
+        },
+        {
+          "id": "out-BOMNRT-2027-03-12-7",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "NRT",
+          "departAt": "2027-03-12T04:30:00.000Z",
+          "arriveAt": "2027-03-12T14:04:00.000Z",
+          "durationMin": 574,
+          "stops": 0,
+          "layovers": [],
+          "price": 26400,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "NRT",
+              "departAt": "2027-03-12T04:30:00.000Z",
+              "arriveAt": "2027-03-12T14:04:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 495",
+              "durationMin": 574
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 747
+        }
+      ],
+      "selectedFlightId": "out-BOMNRT-2027-03-12-3",
+      "returnFlight": {
+        "id": "out-KIXBOM-2027-03-19-7",
+        "carrier": "EK",
+        "carrierName": "Emirates",
+        "from": "KIX",
+        "to": "BOM",
+        "departAt": "2027-03-19T05:10:00.000Z",
+        "arriveAt": "2027-03-19T14:08:00.000Z",
+        "durationMin": 538,
+        "stops": 0,
+        "layovers": [],
+        "price": 21100,
+        "cabin": "economy",
+        "baggage": {
+          "cabin": "7 kg",
+          "checked": "25 kg"
+        },
+        "refundable": true,
+        "tags": [
+          "recommended"
+        ],
+        "segments": [
+          {
+            "from": "KIX",
+            "to": "BOM",
+            "departAt": "2027-03-19T05:10:00.000Z",
+            "arriveAt": "2027-03-19T14:08:00.000Z",
+            "carrier": "EK",
+            "carrierName": "Emirates",
+            "flightNo": "EK 444",
+            "durationMin": 538
+          }
+        ],
+        "source": "mock",
+        "carbonKg": 696
+      },
+      "hotels": [
+        {
+          "id": "tokyo-h1",
+          "name": "Ginza Lantern Hotel",
+          "cityId": "tokyo",
+          "area": "Ginza",
+          "address": "Ginza, tokyo",
+          "lat": 35.6717,
+          "lng": 139.765,
+          "stars": 4,
+          "rating": 8.9,
+          "reviewCount": 2140,
+          "pricePerNight": 14800,
+          "propertyType": "hotel",
+          "tier": "comfort",
+          "amenities": [
+            "Free Wi-Fi",
+            "Breakfast",
+            "Air conditioning",
+            "Gym",
+            "Bar",
+            "24h front desk"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "Sleek business hotel two blocks from Ginza’s main crossing, with compact but brilliantly planned rooms and a top-floor lounge.",
+          "distanceToCenterKm": 0.3,
+          "nearby": [
+            {
+              "name": "Ginza Six",
+              "km": 0.3
+            },
+            {
+              "name": "Tsukiji Market",
+              "km": 1.4
+            },
+            {
+              "name": "Tokyo Station",
+              "km": 1.1
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 14800,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 18944,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Junior suite",
+              "price": 27380,
+              "sleeps": 3,
+              "breakfast": true,
+              "refundable": true
+            }
+          ],
+          "cancellation": "Free cancellation until 24 hours before check-in. Non-refundable rate available at 12% off.",
+          "source": "mock",
+          "score": 70.8,
+          "reasons": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "id": "tokyo-h5",
+          "name": "Yanaka Machiya Stay",
+          "cityId": "tokyo",
+          "area": "Yanaka",
+          "address": "Yanaka, tokyo",
+          "lat": 35.7276,
+          "lng": 139.7669,
+          "stars": 4,
+          "rating": 9.4,
+          "reviewCount": 420,
+          "pricePerNight": 16500,
+          "propertyType": "apartment",
+          "tier": "comfort",
+          "amenities": [
+            "Free Wi-Fi",
+            "Kitchen",
+            "Washer",
+            "Garden",
+            "Self check-in"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "A restored wooden townhouse in Tokyo’s quietest old neighbourhood — tatami, a tiny courtyard and excellent coffee nearby.",
+          "distanceToCenterKm": 0.3,
+          "nearby": [
+            {
+              "name": "Yanaka Ginza",
+              "km": 0.3
+            },
+            {
+              "name": "Ueno Park",
+              "km": 1
+            },
+            {
+              "name": "Nezu Shrine",
+              "km": 0.8
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 16500,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 21120,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Junior suite",
+              "price": 30525,
+              "sleeps": 3,
+              "breakfast": true,
+              "refundable": true
+            }
+          ],
+          "cancellation": "Free cancellation until 24 hours before check-in. Non-refundable rate available at 12% off.",
+          "source": "mock",
+          "score": 67.2,
+          "reasons": [
+            "Exceptional guest score (9.4)"
+          ]
+        },
+        {
+          "id": "kyoto-h4",
+          "name": "Arashiyama River Retreat",
+          "cityId": "kyoto",
+          "area": "Arashiyama",
+          "address": "Arashiyama, kyoto",
+          "lat": 35.0139,
+          "lng": 135.6778,
+          "stars": 4,
+          "rating": 9,
+          "reviewCount": 510,
+          "pricePerNight": 15800,
+          "propertyType": "resort",
+          "tier": "comfort",
+          "amenities": [
+            "Breakfast",
+            "Onsen bath",
+            "River view",
+            "Bike hire",
+            "Free Wi-Fi"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "Riverside retreat at the edge of the bamboo grove, with an open-air bath and bicycles to borrow.",
+          "distanceToCenterKm": 0.4,
+          "nearby": [
+            {
+              "name": "Bamboo Grove",
+              "km": 0.4
+            },
+            {
+              "name": "Togetsukyō Bridge",
+              "km": 0.5
+            },
+            {
+              "name": "Tenryū-ji",
+              "km": 0.6
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 15800,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 20224,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Private villa",
+              "price": 29230,
+              "sleeps": 3,
+              "breakfast": true,
+              "refundable": true
+            }
+          ],
+          "cancellation": "Free cancellation until 24 hours before check-in. Non-refundable rate available at 12% off.",
+          "source": "mock",
+          "score": 58.8,
+          "reasons": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "id": "kyoto-h3",
+          "name": "Higashiyama Machiya Suites",
+          "cityId": "kyoto",
+          "area": "Higashiyama",
+          "address": "Higashiyama, kyoto",
+          "lat": 34.9968,
+          "lng": 135.7791,
+          "stars": 4,
+          "rating": 9.2,
+          "reviewCount": 780,
+          "pricePerNight": 17200,
+          "propertyType": "apartment",
+          "tier": "comfort",
+          "amenities": [
+            "Free Wi-Fi",
+            "Kitchen",
+            "Washer",
+            "Garden",
+            "Self check-in"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "Restored townhouses with cedar baths and small courtyards, a short walk from Kiyomizu-dera’s stone lanes.",
+          "distanceToCenterKm": 0.6,
+          "nearby": [
+            {
+              "name": "Kiyomizu-dera",
+              "km": 0.6
+            },
+            {
+              "name": "Sannenzaka",
+              "km": 0.3
+            },
+            {
+              "name": "Gion",
+              "km": 0.9
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 17200,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 22016,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Junior suite",
+              "price": 31820,
+              "sleeps": 3,
+              "breakfast": true,
+              "refundable": true
+            }
+          ],
+          "cancellation": "Free cancellation until 24 hours before check-in. Non-refundable rate available at 12% off.",
+          "source": "mock",
+          "score": 67.4,
+          "reasons": [
+            "Exceptional guest score (9.2)"
+          ]
+        },
+        {
+          "id": "osaka-h2",
+          "name": "Umeda Skyline Suites",
+          "cityId": "osaka",
+          "area": "Umeda",
+          "address": "Umeda, osaka",
+          "lat": 34.7039,
+          "lng": 135.4951,
+          "stars": 4,
+          "rating": 9,
+          "reviewCount": 1240,
+          "pricePerNight": 13600,
+          "propertyType": "hotel",
+          "tier": "comfort",
+          "amenities": [
+            "Free Wi-Fi",
+            "Breakfast",
+            "Gym",
+            "City view",
+            "Bar"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "High-floor rooms with skyline views, directly connected to Osaka Station and the airport limousine stop.",
+          "distanceToCenterKm": 0.6,
+          "nearby": [
+            {
+              "name": "Umeda Sky Building",
+              "km": 0.6
+            },
+            {
+              "name": "Osaka Station",
+              "km": 0.3
+            },
+            {
+              "name": "Grand Front",
+              "km": 0.2
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 13600,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 17408,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Junior suite",
+              "price": 25160,
+              "sleeps": 3,
+              "breakfast": true,
+              "refundable": true
+            }
+          ],
+          "cancellation": "Free cancellation until 24 hours before check-in. Non-refundable rate available at 12% off.",
+          "source": "mock",
+          "score": 72.4,
+          "reasons": [
+            "Breakfast included"
+          ]
+        }
+      ],
+      "hotelSelections": {
+        "tokyo": "tokyo-h1",
+        "kyoto": "kyoto-h4",
+        "osaka": "osaka-h2"
+      },
+      "selectedHotelId": "tokyo-h1",
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "2027-03-12",
+          "cityId": "tokyo",
+          "cityName": "Tokyo",
+          "title": "Arrive in Tokyo, ease in around Asakusa",
+          "summary": "Land, check in and keep the first day light — one anchor sight plus an easy dinner near your hotel.",
+          "activities": [
+            {
+              "id": "act_sensoji_afternoon_w59u",
+              "poiId": "sensoji",
+              "name": "Sensō-ji Temple, Asakusa",
+              "cityId": "tokyo",
+              "slot": "afternoon",
+              "startTime": "14:00",
+              "durationMin": 90,
+              "costINR": 0,
+              "category": "attraction",
+              "area": "Asakusa",
+              "lat": 35.7148,
+              "lng": 139.7967,
+              "description": "Tokyo’s oldest temple, reached through the lantern-lined Nakamise shopping street. Go before 8am for empty photographs.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sensoji_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_akihabara_afternoon_u1xp",
+              "poiId": "akihabara",
+              "name": "Akihabara Electric Town",
+              "cityId": "tokyo",
+              "slot": "afternoon",
+              "startTime": "16:01",
+              "durationMin": 120,
+              "costINR": 2500,
+              "category": "shopping",
+              "area": "Akihabara",
+              "lat": 35.6984,
+              "lng": 139.7731,
+              "description": "Six-floor arcades, gachapon halls and vintage anime figure shops. Best after 11am when the stores open.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png/1200px-Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png",
+              "transport": {
+                "mode": "metro",
+                "minutes": 16,
+                "costINR": 70,
+                "note": "3.0 km by metro"
+              },
+              "provenance": "ai"
+            },
+            {
+              "id": "act_golden-gai_evening_3pxp",
+              "poiId": "golden-gai",
+              "name": "Omoide Yokocho & Golden Gai, Shinjuku",
+              "cityId": "tokyo",
+              "slot": "evening",
+              "startTime": "19:00",
+              "durationMin": 90,
+              "costINR": 3200,
+              "category": "nightlife",
+              "area": "Shinjuku",
+              "lat": 35.6938,
+              "lng": 139.7036,
+              "description": "Two warrens of six-seat bars and yakitori counters. Cover charges are normal (¥500–1,000) — ask before sitting.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/G2_Street_20090626_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "transport": {
+                "mode": "metro",
+                "minutes": 23,
+                "costINR": 70,
+                "note": "6.0 km by metro"
+              },
+              "provenance": "ai",
+              "meal": "dinner"
+            }
+          ],
+          "dailyCostINR": 6084,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Dinner: Omoide Yokocho & Golden Gai, Shinjuku — Shinjuku. Rain likely: indoor alternatives prioritised. Airport transfer is included in your transport budget."
+        },
+        {
+          "day": 2,
+          "date": "2027-03-13",
+          "cityId": "tokyo",
+          "cityName": "Tokyo",
+          "title": "Toyosu & Tsukiji — teamLab Planets digital art museum",
+          "summary": "teamLab Planets digital art museum → Tsukiji Outer Market breakfast crawl → Shinjuku Gyoen National Garden. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_teamlab-planets_morning_6p31",
+              "poiId": "teamlab-planets",
+              "name": "teamLab Planets digital art museum",
+              "cityId": "tokyo",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 120,
+              "costINR": 2400,
+              "category": "experience",
+              "area": "Toyosu",
+              "lat": 35.6497,
+              "lng": 139.7898,
+              "description": "Barefoot, immersive light rooms you walk through. Timed tickets sell out; bare legs are required for the water rooms.",
+              "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1200&q=80",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_tsukiji_morning_tqp3",
+              "poiId": "tsukiji",
+              "name": "Tsukiji Outer Market breakfast crawl",
+              "cityId": "tokyo",
+              "slot": "morning",
+              "startTime": "11:28",
+              "durationMin": 90,
+              "costINR": 1600,
+              "category": "food",
+              "area": "Tsukiji",
+              "lat": 35.6654,
+              "lng": 139.7707,
+              "description": "Six alleys of tamagoyaki, uni, grilled scallops and knife shops. Arrive by 8am — by 11am the best stalls close.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/2018_Tsukiji_fish_market.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "transport": {
+                "mode": "metro",
+                "minutes": 13,
+                "costINR": 70,
+                "note": "2.0 km by metro"
+              },
+              "provenance": "ai"
+            },
+            {
+              "id": "act_shinjuku-gyoen_afternoon_znyd",
+              "poiId": "shinjuku-gyoen",
+              "name": "Shinjuku Gyoen National Garden",
+              "cityId": "tokyo",
+              "slot": "afternoon",
+              "startTime": "13:36",
+              "durationMin": 90,
+              "costINR": 500,
+              "category": "nature",
+              "area": "Shinjuku",
+              "lat": 35.6852,
+              "lng": 139.71,
+              "description": "Three garden styles in one park — Japanese pond, English lawn, French parterre. Cherry blossoms peak late March.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "transport": {
+                "mode": "metro",
+                "minutes": 23,
+                "costINR": 70,
+                "note": "6.0 km by metro"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 8084,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 3,
+          "date": "2027-03-14",
+          "cityId": "tokyo",
+          "cityName": "Tokyo",
+          "title": "Shibuya & Harajuku — Shibuya Scramble Crossing & Shibuya Sky",
+          "summary": "Shibuya Scramble Crossing & Shibuya Sky → Meiji Jingū Shrine & Yoyogi Park. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_shibuya-sky_morning_oijz",
+              "poiId": "shibuya-sky",
+              "name": "Shibuya Scramble Crossing & Shibuya Sky",
+              "cityId": "tokyo",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 75,
+              "costINR": 1900,
+              "category": "viewpoint",
+              "area": "Shibuya",
+              "lat": 35.6595,
+              "lng": 139.7005,
+              "description": "The world’s busiest crossing, best seen from above at Shibuya Sky around sunset. Book the rooftop slot online a week ahead.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shibuya_Crossing%2C_Aerial.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_meiji-jingu_morning_4xzo",
+              "poiId": "meiji-jingu",
+              "name": "Meiji Jingū Shrine & Yoyogi Park",
+              "cityId": "tokyo",
+              "slot": "morning",
+              "startTime": "10:43",
+              "durationMin": 75,
+              "costINR": 0,
+              "category": "nature",
+              "area": "Harajuku",
+              "lat": 35.6764,
+              "lng": 139.6993,
+              "description": "A cedar forest in the middle of the city, with a calm shrine courtyard. Combine with Harajuku’s Takeshita Street next door.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Meiji_Jingu_2023-3.jpg/1200px-Meiji_Jingu_2023-3.jpg",
+              "transport": {
+                "mode": "metro",
+                "minutes": 13,
+                "costINR": 70,
+                "note": "2.0 km by metro"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 5414,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 4,
+          "date": "2027-03-15",
+          "cityId": "kyoto",
+          "cityName": "Kyoto",
+          "title": "Higashiyama & Gion — Kiyomizu-dera & Sannenzaka lanes",
+          "summary": "First full day in Kyoto: Kiyomizu-dera & Sannenzaka lanes → Machiya tea ceremony in a 100-year-old townhouse.",
+          "activities": [
+            {
+              "id": "act_kiyomizudera_morning_g8n5",
+              "poiId": "kiyomizudera",
+              "name": "Kiyomizu-dera & Sannenzaka lanes",
+              "cityId": "kyoto",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 120,
+              "costINR": 400,
+              "category": "attraction",
+              "area": "Higashiyama",
+              "lat": 34.9949,
+              "lng": 135.785,
+              "description": "Wooden stage above a hillside of maples, with stone lanes of pottery shops leading down to Gion.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kiyomizu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_tea-ceremony_morning_ft83",
+              "poiId": "tea-ceremony",
+              "name": "Machiya tea ceremony in a 100-year-old townhouse",
+              "cityId": "kyoto",
+              "slot": "morning",
+              "startTime": "11:28",
+              "durationMin": 75,
+              "costINR": 2800,
+              "category": "experience",
+              "area": "Gion",
+              "lat": 35.0039,
+              "lng": 135.7752,
+              "description": "A 60-minute whisked-matcha ceremony with a host explaining the etiquette. Small groups of 6–8.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Chado.svg/1920px-Chado.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "transport": {
+                "mode": "walk",
+                "minutes": 13,
+                "costINR": 0,
+                "note": "1.0 km walk"
+              },
+              "provenance": "ai"
+            },
+            {
+              "id": "act_nishiki_evening_bxnc",
+              "poiId": "nishiki",
+              "name": "Nishiki Market food walk",
+              "cityId": "kyoto",
+              "slot": "evening",
+              "startTime": "19:00",
+              "durationMin": 90,
+              "costINR": 1800,
+              "category": "food",
+              "area": "Nakagyo",
+              "lat": 35.005,
+              "lng": 135.7649,
+              "description": "A 400-metre covered market of pickles, tamagoyaki, yuba and matcha sweets. Eat standing, then move on.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Nishiki_Ichiba_by_matsuyuki.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "transport": {
+                "mode": "walk",
+                "minutes": 13,
+                "costINR": 0,
+                "note": "1.0 km walk"
+              },
+              "provenance": "ai",
+              "meal": "dinner"
+            }
+          ],
+          "dailyCostINR": 6392,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Dinner: Nishiki Market food walk — Nakagyo. Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 5,
+          "date": "2027-03-16",
+          "cityId": "kyoto",
+          "cityName": "Kyoto",
+          "title": "Fushimi & Gion — Fushimi Inari Taisha",
+          "summary": "Fushimi Inari Taisha → Gion & Shirakawa canal at dusk → Philosopher’s Path to Ginkaku-ji. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_fushimi-inari_morning_m54w",
+              "poiId": "fushimi-inari",
+              "name": "Fushimi Inari Taisha",
+              "cityId": "kyoto",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 150,
+              "costINR": 0,
+              "category": "attraction",
+              "area": "Fushimi",
+              "lat": 34.9671,
+              "lng": 135.7727,
+              "description": "Thousands of vermilion torii gates climbing Mount Inari. Walk 30 minutes past the crowd for empty gates.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/1200px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_gion_afternoon_v21v",
+              "poiId": "gion",
+              "name": "Gion & Shirakawa canal at dusk",
+              "cityId": "kyoto",
+              "slot": "afternoon",
+              "startTime": "12:03",
+              "durationMin": 90,
+              "costINR": 0,
+              "category": "experience",
+              "area": "Gion",
+              "lat": 35.0037,
+              "lng": 135.7778,
+              "description": "Willow-lined canal, teahouses and lantern light. Best 30 minutes before sunset, then dinner in Pontochō.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/150124_Gion_Kyoto_Japan01s3.jpg/1920px-150124_Gion_Kyoto_Japan01s3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "transport": {
+                "mode": "metro",
+                "minutes": 18,
+                "costINR": 70,
+                "note": "4.0 km by metro"
+              },
+              "provenance": "ai"
+            },
+            {
+              "id": "act_philosophers-path_afternoon_y39p",
+              "poiId": "philosophers-path",
+              "name": "Philosopher’s Path to Ginkaku-ji",
+              "cityId": "kyoto",
+              "slot": "afternoon",
+              "startTime": "14:04",
+              "durationMin": 90,
+              "costINR": 500,
+              "category": "nature",
+              "area": "Sakyo",
+              "lat": 35.0247,
+              "lng": 135.7949,
+              "description": "A canal-side stone path lined with cherry trees and small cafés, ending at the silver pavilion.",
+              "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80",
+              "transport": {
+                "mode": "metro",
+                "minutes": 16,
+                "costINR": 70,
+                "note": "3.0 km by metro"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 3832,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 6,
+          "date": "2027-03-17",
+          "cityId": "osaka",
+          "cityName": "Osaka",
+          "title": "Chuo & Nipponbashi — Osaka Castle & park",
+          "summary": "First full day in Osaka: Osaka Castle & park → Kuromon Ichiba Market.",
+          "activities": [
+            {
+              "id": "act_osaka-castle_morning_i0z0",
+              "poiId": "osaka-castle",
+              "name": "Osaka Castle & park",
+              "cityId": "osaka",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 120,
+              "costINR": 700,
+              "category": "attraction",
+              "area": "Chuo",
+              "lat": 34.6873,
+              "lng": 135.5259,
+              "description": "Reconstructed keep with a museum of the 1615 siege, surrounded by moats and cherry trees.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Osaka_Castle_03bs3200.jpg/1920px-Osaka_Castle_03bs3200.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_kuromon_morning_fpgl",
+              "poiId": "kuromon",
+              "name": "Kuromon Ichiba Market",
+              "cityId": "osaka",
+              "slot": "morning",
+              "startTime": "11:31",
+              "durationMin": 90,
+              "costINR": 2400,
+              "category": "food",
+              "area": "Nipponbashi",
+              "lat": 34.6656,
+              "lng": 135.5062,
+              "description": "580 metres of uni, wagyu skewers, fugu and fruit. A 90-minute graze that replaces lunch.",
+              "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=80",
+              "transport": {
+                "mode": "metro",
+                "minutes": 16,
+                "costINR": 70,
+                "note": "3.0 km by metro"
+              },
+              "provenance": "ai"
+            },
+            {
+              "id": "act_shinsekai_evening_qunt",
+              "poiId": "shinsekai",
+              "name": "Shinsekai & kushikatsu lane",
+              "cityId": "osaka",
+              "slot": "evening",
+              "startTime": "19:00",
+              "durationMin": 90,
+              "costINR": 2000,
+              "category": "food",
+              "area": "Shinsekai",
+              "lat": 34.6524,
+              "lng": 135.5064,
+              "description": "Retro 1912 district under Tsūtenkaku tower. The rule at kushikatsu counters: never double-dip the sauce.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg/1920px-Shinsekai_and_Tsutenkaku_at_night_2019-04-12.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "transport": {
+                "mode": "walk",
+                "minutes": 13,
+                "costINR": 0,
+                "note": "1.0 km walk"
+              },
+              "provenance": "ai",
+              "meal": "dinner"
+            }
+          ],
+          "dailyCostINR": 6278,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Dinner: Shinsekai & kushikatsu lane — Shinsekai. Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 7,
+          "date": "2027-03-18",
+          "cityId": "osaka",
+          "cityName": "Osaka",
+          "title": "Final morning in Osaka & departure",
+          "summary": "Umeda Sky Building Floating Garden → Nakanoshima river walk & National Museum of Art. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_umeda-sky_morning_f7h5",
+              "poiId": "umeda-sky",
+              "name": "Umeda Sky Building Floating Garden",
+              "cityId": "osaka",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 75,
+              "costINR": 1500,
+              "category": "viewpoint",
+              "area": "Umeda",
+              "lat": 34.7051,
+              "lng": 135.4896,
+              "description": "Two towers joined by a rooftop ring 173m up. Arrive 40 minutes before sunset for the full transition.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/2018_Umeda_Sky_Building.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_nakanoshima_morning_i9aw",
+              "poiId": "nakanoshima",
+              "name": "Nakanoshima river walk & National Museum of Art",
+              "cityId": "osaka",
+              "slot": "morning",
+              "startTime": "10:43",
+              "durationMin": 120,
+              "costINR": 1400,
+              "category": "museum",
+              "area": "Nakanoshima",
+              "lat": 34.6913,
+              "lng": 135.4919,
+              "description": "A quiet river island of brick warehouses, a modern art museum and waterside coffee.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Nakanoshima_Skyscrapers_in_201504_001.jpg/1920px-Nakanoshima_Skyscrapers_in_201504_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "transport": {
+                "mode": "metro",
+                "minutes": 13,
+                "costINR": 70,
+                "note": "2.0 km by metro"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 6078,
+          "weather": {
+            "highC": 14,
+            "lowC": 6,
+            "rainMm": 110,
+            "summary": "Mixed, carry a light rain jacket",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        }
+      ],
+      "budget": {
+        "currency": "INR",
+        "totalBudget": 300000,
+        "estimatedTotal": 307740,
+        "perPerson": 153870,
+        "daily": 43963,
+        "categories": [
+          {
+            "key": "flights",
+            "label": "Flights",
+            "perPerson": 43900,
+            "total": 87800,
+            "note": "Round trip, per person",
+            "provenance": "mock"
+          },
+          {
+            "key": "stay",
+            "label": "Accommodation",
+            "perPerson": 51600,
+            "total": 103200,
+            "note": "7 nights · 1 room · 3 cities",
+            "provenance": "mock"
+          },
+          {
+            "key": "food",
+            "label": "Food & dining",
+            "perPerson": 21840,
+            "total": 43680,
+            "note": "Breakfast + lunch + dinner daily",
+            "provenance": "estimated"
+          },
+          {
+            "key": "transport",
+            "label": "Local transport",
+            "perPerson": 2230,
+            "total": 4460,
+            "note": "Metro, taxis and airport transfers",
+            "provenance": "estimated"
+          },
+          {
+            "key": "activities",
+            "label": "Activities & experiences",
+            "perPerson": 18600,
+            "total": 37200,
+            "note": "Entry tickets and tours",
+            "provenance": "estimated"
+          },
+          {
+            "key": "shopping",
+            "label": "Shopping",
+            "perPerson": 9000,
+            "total": 18000,
+            "note": "Suggested allowance",
+            "provenance": "estimated"
+          },
+          {
+            "key": "misc",
+            "label": "Visa, insurance & eSIM",
+            "perPerson": 6700,
+            "total": 13400,
+            "note": "JP entry costs",
+            "provenance": "estimated"
+          }
+        ],
+        "warnings": [
+          "Your plan runs about ₹7,740 over budget (103% of target)."
+        ],
+        "savings": [
+          {
+            "title": "Switch to Air India (2 stop)",
+            "detail": "Same route, lower fare. You lose a little timing convenience.",
+            "savingINR": 18600
+          },
+          {
+            "title": "Eat breakfast at markets and konbini",
+            "detail": "Two meals a day from markets instead of restaurants saves this without hurting the trip.",
+            "savingINR": 12000
+          },
+          {
+            "title": "Trim the shopping allowance by half",
+            "detail": "Keeps the experiences, cuts the impulse buys.",
+            "savingINR": 9000
+          },
+          {
+            "title": "Take a 24/48-hour transit pass",
+            "detail": "Public transport passes pay for themselves on any day with 3+ rides.",
+            "savingINR": 6500
+          }
+        ],
+        "provenance": "estimated"
+      },
+      "sources": [
+        {
+          "label": "Weather source",
+          "provenance": "estimated",
+          "detail": "Forecast window not open yet — using 10-year climate normals for your month."
+        },
+        {
+          "label": "Flight data",
+          "provenance": "mock",
+          "detail": "Demo fare engine. Connect Amadeus credentials in .env to show live availability."
+        },
+        {
+          "label": "Visa & entry",
+          "provenance": "estimated",
+          "detail": "Indians need a visa for Japan. Apply at VFS Global 4–6 weeks ahead with itinerary, bank statements and hotel bookings. A visa is required even for short tourism stays."
+        },
+        {
+          "label": "Safety snapshot",
+          "provenance": "ai",
+          "detail": "very safe — Tokyo is one of the safest large cities in the world. Violent crime is rare; the practical risks are earthquakes, summer heatstroke and getting lost in station complexes."
+        }
+      ],
+      "bookingRefs": [],
+      "packingList": [
+        {
+          "title": "Essentials",
+          "items": [
+            {
+              "label": "Passport + visa printout"
+            },
+            {
+              "label": "Travel insurance policy"
+            },
+            {
+              "label": "Cards + ₹8,000 equivalent cash"
+            },
+            {
+              "label": "Phone + charger + power bank"
+            },
+            {
+              "label": "Universal power adapter"
+            },
+            {
+              "label": "eSIM installed before departure"
+            }
+          ]
+        },
+        {
+          "title": "Clothing",
+          "items": [
+            {
+              "label": "Thermal base layer"
+            },
+            {
+              "label": "Insulated jacket"
+            },
+            {
+              "label": "Gloves & beanie"
+            },
+            {
+              "label": "Compact umbrella"
+            },
+            {
+              "label": "Waterproof shell"
+            },
+            {
+              "label": "Comfortable walking shoes (broken in)"
+            },
+            {
+              "label": "One smart-casual outfit for dinners"
+            },
+            {
+              "label": "Shoulder-covering top for temples"
+            }
+          ]
+        },
+        {
+          "title": "Day bag",
+          "items": [
+            {
+              "label": "Refillable water bottle"
+            },
+            {
+              "label": "Sunscreen SPF 50"
+            },
+            {
+              "label": "Hand sanitiser & tissues"
+            },
+            {
+              "label": "Reusable shopping tote"
+            }
+          ]
+        },
+        {
+          "title": "Health & documents",
+          "items": [
+            {
+              "label": "Personal medication + prescription"
+            },
+            {
+              "label": "ORS sachets & basic first aid"
+            },
+            {
+              "label": "Printed hotel confirmations"
+            },
+            {
+              "label": "Emergency contact card"
+            }
+          ]
+        }
+      ],
+      "messages": [],
+      "savedActivityIds": [],
+      "isSample": true
+    },
+    {
+      "id": "trip_6c3k284j",
+      "userId": "usr_848212e1e60a",
+      "title": "Bali",
+      "subtitle": "5 days · 2 travellers · from Mumbai",
+      "status": "past",
+      "createdAt": "2026-11-12T15:33:03.560Z",
+      "updatedAt": "2026-11-12T15:33:03.560Z",
+      "brief": {
+        "originCity": "Mumbai",
+        "originCode": "BOM",
+        "destinationQuery": "Bali",
+        "cityIds": [
+          "bali"
+        ],
+        "startDate": "2026-07-15",
+        "days": 5,
+        "travelers": 2,
+        "budgetPerPerson": 70000,
+        "interests": [
+          "food",
+          "nature",
+          "adventure",
+          "relaxation"
+        ],
+        "hotelClass": "comfort",
+        "pace": "relaxed",
+        "avoidEarlyMornings": false
+      },
+      "coverImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-19",
+      "travelers": 2,
+      "cities": [
+        {
+          "cityId": "bali",
+          "name": "Bali",
+          "nights": 5
+        }
+      ],
+      "flights": [
+        {
+          "id": "out-BOMDPS-2027-10-12-4",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T20:00:00.000Z",
+          "arriveAt": "2027-10-13T14:16:00.000Z",
+          "durationMin": 1096,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "AUH",
+              "minutes": 157
+            },
+            {
+              "airport": "DXB",
+              "minutes": 115
+            }
+          ],
+          "price": 16300,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 4,
+          "tags": [
+            "cheapest",
+            "recommended"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "AUH",
+              "departAt": "2027-10-12T20:00:00.000Z",
+              "arriveAt": "2027-10-13T00:35:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 502",
+              "durationMin": 275
+            },
+            {
+              "from": "AUH",
+              "to": "DXB",
+              "departAt": "2027-10-13T03:12:00.000Z",
+              "arriveAt": "2027-10-13T07:47:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 550",
+              "durationMin": 275
+            },
+            {
+              "from": "DXB",
+              "to": "DPS",
+              "departAt": "2027-10-13T09:42:00.000Z",
+              "arriveAt": "2027-10-13T14:17:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 372",
+              "durationMin": 275
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 724
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-8",
+          "carrier": "6E",
+          "carrierName": "IndiGo",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T03:15:00.000Z",
+          "arriveAt": "2027-10-12T16:22:00.000Z",
+          "durationMin": 787,
+          "stops": 1,
+          "layovers": [
+            {
+              "airport": "BLR",
+              "minutes": 244
+            }
+          ],
+          "price": 17400,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": true,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "BLR",
+              "departAt": "2027-10-12T03:15:00.000Z",
+              "arriveAt": "2027-10-12T08:18:00.000Z",
+              "carrier": "6E",
+              "carrierName": "IndiGo",
+              "flightNo": "6E 150",
+              "durationMin": 303
+            },
+            {
+              "from": "BLR",
+              "to": "DPS",
+              "departAt": "2027-10-12T12:22:00.000Z",
+              "arriveAt": "2027-10-12T17:25:00.000Z",
+              "carrier": "6E",
+              "carrierName": "IndiGo",
+              "flightNo": "6E 535",
+              "durationMin": 303
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 724
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-5",
+          "carrier": "WY",
+          "carrierName": "Oman Air",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T16:45:00.000Z",
+          "arriveAt": "2027-10-13T02:45:00.000Z",
+          "durationMin": 600,
+          "stops": 1,
+          "layovers": [
+            {
+              "airport": "DXB",
+              "minutes": 272
+            }
+          ],
+          "price": 18300,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 2,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DXB",
+              "departAt": "2027-10-12T16:45:00.000Z",
+              "arriveAt": "2027-10-12T20:15:00.000Z",
+              "carrier": "WY",
+              "carrierName": "Oman Air",
+              "flightNo": "WY 836",
+              "durationMin": 210
+            },
+            {
+              "from": "DXB",
+              "to": "DPS",
+              "departAt": "2027-10-13T00:47:00.000Z",
+              "arriveAt": "2027-10-13T04:17:00.000Z",
+              "carrier": "WY",
+              "carrierName": "Oman Air",
+              "flightNo": "WY 184",
+              "durationMin": 210
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 724
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-1",
+          "carrier": "6E",
+          "carrierName": "IndiGo",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T14:30:00.000Z",
+          "arriveAt": "2027-10-12T22:30:00.000Z",
+          "durationMin": 480,
+          "stops": 0,
+          "layovers": [],
+          "price": 19400,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 1,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DPS",
+              "departAt": "2027-10-12T14:30:00.000Z",
+              "arriveAt": "2027-10-12T22:30:00.000Z",
+              "carrier": "6E",
+              "carrierName": "IndiGo",
+              "flightNo": "6E 763",
+              "durationMin": 480
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 613
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-2",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T17:30:00.000Z",
+          "arriveAt": "2027-10-13T01:30:00.000Z",
+          "durationMin": 480,
+          "stops": 0,
+          "layovers": [],
+          "price": 19900,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": true,
+          "seatsLeft": 1,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DPS",
+              "departAt": "2027-10-12T17:30:00.000Z",
+              "arriveAt": "2027-10-13T01:30:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 193",
+              "durationMin": 480
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 613
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-3",
+          "carrier": "SQ",
+          "carrierName": "Singapore Airlines",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T22:10:00.000Z",
+          "arriveAt": "2027-10-13T06:10:00.000Z",
+          "durationMin": 480,
+          "stops": 0,
+          "layovers": [],
+          "price": 20100,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 3,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DPS",
+              "departAt": "2027-10-12T22:10:00.000Z",
+              "arriveAt": "2027-10-13T06:10:00.000Z",
+              "carrier": "SQ",
+              "carrierName": "Singapore Airlines",
+              "flightNo": "SQ 652",
+              "durationMin": 480
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 613
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-6",
+          "carrier": "MH",
+          "carrierName": "Malaysia Airlines",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T16:00:00.000Z",
+          "arriveAt": "2027-10-13T00:00:00.000Z",
+          "durationMin": 480,
+          "stops": 0,
+          "layovers": [],
+          "price": 20300,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": true,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DPS",
+              "departAt": "2027-10-12T16:00:00.000Z",
+              "arriveAt": "2027-10-13T00:00:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 901",
+              "durationMin": 480
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 613
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-0",
+          "carrier": "AI",
+          "carrierName": "Air India",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T13:00:00.000Z",
+          "arriveAt": "2027-10-12T21:00:00.000Z",
+          "durationMin": 480,
+          "stops": 0,
+          "layovers": [],
+          "price": 20800,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 5,
+          "tags": [
+            "fastest"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DPS",
+              "departAt": "2027-10-12T13:00:00.000Z",
+              "arriveAt": "2027-10-12T21:00:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 503",
+              "durationMin": 480
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 613
+        },
+        {
+          "id": "out-BOMDPS-2027-10-12-7",
+          "carrier": "AI",
+          "carrierName": "Air India",
+          "from": "BOM",
+          "to": "DPS",
+          "departAt": "2027-10-12T21:45:00.000Z",
+          "arriveAt": "2027-10-13T05:45:00.000Z",
+          "durationMin": 480,
+          "stops": 0,
+          "layovers": [],
+          "price": 20800,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": true,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DPS",
+              "departAt": "2027-10-12T21:45:00.000Z",
+              "arriveAt": "2027-10-13T05:45:00.000Z",
+              "carrier": "AI",
+              "carrierName": "Air India",
+              "flightNo": "AI 218",
+              "durationMin": 480
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 613
+        }
+      ],
+      "selectedFlightId": "out-BOMDPS-2027-10-12-4",
+      "returnFlight": {
+        "id": "out-DPSBOM-2027-10-17-5",
+        "carrier": "CX",
+        "carrierName": "Cathay Pacific",
+        "from": "DPS",
+        "to": "BOM",
+        "departAt": "2027-10-17T15:40:00.000Z",
+        "arriveAt": "2027-10-18T03:54:00.000Z",
+        "durationMin": 734,
+        "stops": 2,
+        "layovers": [
+          {
+            "airport": "HKG",
+            "minutes": 241
+          },
+          {
+            "airport": "HKG",
+            "minutes": 246
+          }
+        ],
+        "price": 16500,
+        "cabin": "economy",
+        "baggage": {
+          "cabin": "7 kg",
+          "checked": "20 kg"
+        },
+        "refundable": true,
+        "seatsLeft": 3,
+        "tags": [
+          "cheapest",
+          "recommended"
+        ],
+        "segments": [
+          {
+            "from": "DPS",
+            "to": "HKG",
+            "departAt": "2027-10-17T15:40:00.000Z",
+            "arriveAt": "2027-10-17T18:14:00.000Z",
+            "carrier": "CX",
+            "carrierName": "Cathay Pacific",
+            "flightNo": "CX 207",
+            "durationMin": 154
+          },
+          {
+            "from": "HKG",
+            "to": "HKG",
+            "departAt": "2027-10-17T22:15:00.000Z",
+            "arriveAt": "2027-10-18T00:49:00.000Z",
+            "carrier": "CX",
+            "carrierName": "Cathay Pacific",
+            "flightNo": "CX 724",
+            "durationMin": 154
+          },
+          {
+            "from": "HKG",
+            "to": "BOM",
+            "departAt": "2027-10-18T04:55:00.000Z",
+            "arriveAt": "2027-10-18T07:29:00.000Z",
+            "carrier": "CX",
+            "carrierName": "Cathay Pacific",
+            "flightNo": "CX 723",
+            "durationMin": 154
+          }
+        ],
+        "source": "mock",
+        "carbonKg": 724
+      },
+      "hotels": [
+        {
+          "id": "bali-h1",
+          "name": "Ubud Rice Terrace Villas",
+          "cityId": "bali",
+          "area": "Ubud",
+          "address": "Ubud, bali",
+          "lat": -8.5069,
+          "lng": 115.2625,
+          "stars": 4,
+          "rating": 9.4,
+          "reviewCount": 1420,
+          "pricePerNight": 9200,
+          "propertyType": "villa",
+          "tier": "comfort",
+          "amenities": [
+            "Pool",
+            "Breakfast",
+            "Free Wi-Fi",
+            "Yoga deck",
+            "Airport transfer"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "Private-pool villas looking over the Tegallalang terraces, with breakfast brought to your deck each morning.",
+          "distanceToCenterKm": 1.2,
+          "nearby": [
+            {
+              "name": "Ubud Market",
+              "km": 1.2
+            },
+            {
+              "name": "Monkey Forest",
+              "km": 1.6
+            },
+            {
+              "name": "Tegallalang",
+              "km": 9.4
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 9200,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 11776,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Private villa",
+              "price": 17020,
+              "sleeps": 4,
+              "breakfast": true,
+              "refundable": true
+            }
+          ],
+          "cancellation": "Free cancellation until 24 hours before check-in. Non-refundable rate available at 12% off.",
+          "source": "mock",
+          "score": 61.5,
+          "reasons": [
+            "Exceptional guest score (9.4)",
+            "Breakfast included",
+            "Pool on site"
+          ]
+        }
+      ],
+      "hotelSelections": {
+        "bali": "bali-h1"
+      },
+      "selectedHotelId": "bali-h1",
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "2026-07-15",
+          "cityId": "bali",
+          "cityName": "Bali",
+          "title": "Arrive in Bali, ease in around Ubud",
+          "summary": "Land, check in and keep the first day light — one anchor sight plus an easy dinner near your hotel.",
+          "activities": [
+            {
+              "id": "act_balinese-cooking_afternoon_cmh4",
+              "poiId": "balinese-cooking",
+              "name": "Balinese cooking class + market tour",
+              "cityId": "bali",
+              "slot": "afternoon",
+              "startTime": "14:00",
+              "durationMin": 240,
+              "costINR": 3000,
+              "category": "experience",
+              "area": "Ubud",
+              "lat": -8.5069,
+              "lng": 115.2625,
+              "description": "Shop a village market, then cook sate lilit, lawar and tempe in a family compound. Vegetarian friendly.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bali_cuisine.jpg/1920px-Bali_cuisine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 5184,
+          "weather": {
+            "highC": 32,
+            "lowC": 25,
+            "rainMm": 80,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised. Airport transfer is included in your transport budget."
+        },
+        {
+          "day": 2,
+          "date": "2026-07-16",
+          "cityId": "bali",
+          "cityName": "Bali",
+          "title": "Ubud — Sacred Monkey Forest Sanctuary",
+          "summary": "Sacred Monkey Forest Sanctuary → Tegallalang Rice Terraces. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_ubud-monkey-forest_morning_xhdx",
+              "poiId": "ubud-monkey-forest",
+              "name": "Sacred Monkey Forest Sanctuary, Ubud",
+              "cityId": "bali",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 90,
+              "costINR": 500,
+              "category": "nature",
+              "area": "Ubud",
+              "lat": -8.5188,
+              "lng": 115.2594,
+              "description": "Mossy banyan temple grounds with 1,200 long-tailed macaques and three 14th-century temples.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Monkey_Forest.jpg/1920px-Monkey_Forest.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_tegallalang_morning_69j5",
+              "poiId": "tegallalang",
+              "name": "Tegallalang Rice Terraces",
+              "cityId": "bali",
+              "slot": "morning",
+              "startTime": "11:18",
+              "durationMin": 90,
+              "costINR": 400,
+              "category": "nature",
+              "area": "Ubud",
+              "lat": -8.4312,
+              "lng": 115.2794,
+              "description": "Stepped emerald terraces with swing platforms and jungle cafes. Arrive by 07:30 before the tour buses.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Indonesia_Gianyar_Tegallalang_district_location_map.svg/1920px-Indonesia_Gianyar_Tegallalang_district_location_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "transport": {
+                "mode": "metro",
+                "minutes": 33,
+                "costINR": 70,
+                "note": "10.0 km by metro"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 3154,
+          "weather": {
+            "highC": 32,
+            "lowC": 25,
+            "rainMm": 80,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 3,
+          "date": "2026-07-17",
+          "cityId": "bali",
+          "cityName": "Bali",
+          "title": "Kintamani — Mount Batur sunrise trek",
+          "summary": "Mount Batur sunrise trek. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_batur-sunrise_morning_jhbf",
+              "poiId": "batur-sunrise",
+              "name": "Mount Batur sunrise trek",
+              "cityId": "bali",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 360,
+              "costINR": 3200,
+              "category": "adventure",
+              "area": "Kintamani",
+              "lat": -8.2422,
+              "lng": 115.3753,
+              "description": "2am pick-up, 2-hour pre-dawn climb, sunrise above a volcanic caldera. Moderate fitness required.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/View_Of_Mt.Batur_on_April_8th_2026.jpg/1920px-View_Of_Mt.Batur_on_April_8th_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 5384,
+          "weather": {
+            "highC": 32,
+            "lowC": 25,
+            "rainMm": 80,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 4,
+          "date": "2026-07-18",
+          "cityId": "bali",
+          "cityName": "Bali",
+          "title": "Nusa Penida — Nusa Penida day trip (Kelingking Beach)",
+          "summary": "Nusa Penida day trip (Kelingking Beach). Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_nusa-penida_morning_l4gb",
+              "poiId": "nusa-penida",
+              "name": "Nusa Penida day trip (Kelingking Beach)",
+              "cityId": "bali",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 600,
+              "costINR": 4200,
+              "category": "adventure",
+              "area": "Nusa Penida",
+              "lat": -8.7278,
+              "lng": 115.5444,
+              "description": "Fast boat from Sanur to the T-rex cliff, Angel’s Billabong and Crystal Bay snorkelling. Long but spectacular day.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Broken_Bay%2C_Nusa_Penida.jpg/1920px-Broken_Bay%2C_Nusa_Penida.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 6384,
+          "weather": {
+            "highC": 32,
+            "lowC": 25,
+            "rainMm": 80,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        },
+        {
+          "day": 5,
+          "date": "2026-07-19",
+          "cityId": "bali",
+          "cityName": "Bali",
+          "title": "Final morning in Bali & departure",
+          "summary": "Uluwatu Temple & Kecak fire dance. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_uluwatu-temple_morning_wwe3",
+              "poiId": "uluwatu-temple",
+              "name": "Uluwatu Temple & Kecak fire dance",
+              "cityId": "bali",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 150,
+              "costINR": 1200,
+              "category": "attraction",
+              "area": "Uluwatu",
+              "lat": -8.8291,
+              "lng": 115.0849,
+              "description": "Clifftop sea temple with a sunset Kecak performance at 18:00. Monkeys are bold — secure everything.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Pura_Luhur_Uluwatu_2017-08-17_%2834%29.jpg/1920px-Pura_Luhur_Uluwatu_2017-08-17_%2834%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 3384,
+          "weather": {
+            "highC": 32,
+            "lowC": 25,
+            "rainMm": 80,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": "Rain likely: indoor alternatives prioritised."
+        }
+      ],
+      "budget": {
+        "currency": "INR",
+        "totalBudget": 140000,
+        "estimatedTotal": 179940,
+        "perPerson": 89970,
+        "daily": 35988,
+        "categories": [
+          {
+            "key": "flights",
+            "label": "Flights",
+            "perPerson": 32800,
+            "total": 65600,
+            "note": "Round trip, per person",
+            "provenance": "mock"
+          },
+          {
+            "key": "stay",
+            "label": "Accommodation",
+            "perPerson": 23000,
+            "total": 46000,
+            "note": "5 nights · 1 room",
+            "provenance": "mock"
+          },
+          {
+            "key": "food",
+            "label": "Food & dining",
+            "perPerson": 10400,
+            "total": 20800,
+            "note": "Breakfast + lunch + dinner daily",
+            "provenance": "estimated"
+          },
+          {
+            "key": "transport",
+            "label": "Local transport",
+            "perPerson": 1670,
+            "total": 3340,
+            "note": "Metro, taxis and airport transfers",
+            "provenance": "estimated"
+          },
+          {
+            "key": "activities",
+            "label": "Activities & experiences",
+            "perPerson": 12500,
+            "total": 25000,
+            "note": "Entry tickets and tours",
+            "provenance": "estimated"
+          },
+          {
+            "key": "shopping",
+            "label": "Shopping",
+            "perPerson": 4200,
+            "total": 8400,
+            "note": "Suggested allowance",
+            "provenance": "estimated"
+          },
+          {
+            "key": "misc",
+            "label": "Visa, insurance & eSIM",
+            "perPerson": 5400,
+            "total": 10800,
+            "note": "ID entry costs",
+            "provenance": "estimated"
+          }
+        ],
+        "warnings": [
+          "Your plan runs about ₹39,940 over budget (129% of target).",
+          "Flights are eating more than 45% of the per-person budget — shifting dates can help."
+        ],
+        "savings": [
+          {
+            "title": "Eat breakfast at markets and konbini",
+            "detail": "Two meals a day from markets instead of restaurants saves this without hurting the trip.",
+            "savingINR": 7200
+          },
+          {
+            "title": "Take a 24/48-hour transit pass",
+            "detail": "Public transport passes pay for themselves on any day with 3+ rides.",
+            "savingINR": 6500
+          },
+          {
+            "title": "Trim the shopping allowance by half",
+            "detail": "Keeps the experiences, cuts the impulse buys.",
+            "savingINR": 4200
+          }
+        ],
+        "provenance": "estimated"
+      },
+      "sources": [
+        {
+          "label": "Auto-optimised to your budget",
+          "provenance": "ai",
+          "detail": "Your first pass came in ₹57,540 over budget, so I switched to the lowest sensible fare and the best-value stays in each city."
+        },
+        {
+          "label": "Weather source",
+          "provenance": "estimated",
+          "detail": "Forecast window not open yet — using 10-year climate normals for your month."
+        },
+        {
+          "label": "Flight data",
+          "provenance": "mock",
+          "detail": "Demo fare engine. Connect Amadeus credentials in .env to show live availability."
+        },
+        {
+          "label": "Visa & entry",
+          "provenance": "estimated",
+          "detail": "Indians get a visa on arrival (IDR 500,000 ≈ ₹2,700) for 30 days, extendable once. Have a return ticket and passport valid 6 months."
+        },
+        {
+          "label": "Safety snapshot",
+          "provenance": "ai",
+          "detail": "safe — Generally safe and welcoming. Main issues are scooter accidents, rip currents and gastrointestinal bugs from tap water."
+        }
+      ],
+      "bookingRefs": [],
+      "packingList": [
+        {
+          "title": "Essentials",
+          "items": [
+            {
+              "label": "Passport + visa printout"
+            },
+            {
+              "label": "Travel insurance policy"
+            },
+            {
+              "label": "Cards + ₹8,000 equivalent cash"
+            },
+            {
+              "label": "Phone + charger + power bank"
+            },
+            {
+              "label": "Universal power adapter"
+            },
+            {
+              "label": "eSIM installed before departure"
+            }
+          ]
+        },
+        {
+          "title": "Clothing",
+          "items": [
+            {
+              "label": "Light breathable layers (5)"
+            },
+            {
+              "label": "Sun hat & sunglasses"
+            },
+            {
+              "label": "Comfortable walking shoes (broken in)"
+            },
+            {
+              "label": "One smart-casual outfit for dinners"
+            }
+          ]
+        },
+        {
+          "title": "Day bag",
+          "items": [
+            {
+              "label": "Refillable water bottle"
+            },
+            {
+              "label": "Sunscreen SPF 50"
+            },
+            {
+              "label": "Hand sanitiser & tissues"
+            },
+            {
+              "label": "Reusable shopping tote"
+            },
+            {
+              "label": "Quick-dry towel"
+            },
+            {
+              "label": "Dry bag for electronics"
+            }
+          ]
+        },
+        {
+          "title": "Health & documents",
+          "items": [
+            {
+              "label": "Personal medication + prescription"
+            },
+            {
+              "label": "ORS sachets & basic first aid"
+            },
+            {
+              "label": "Printed hotel confirmations"
+            },
+            {
+              "label": "Emergency contact card"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg_seed_1",
+          "role": "assistant",
+          "content": "Trimmed the Ubud stay to three nights and moved the last two to Seminyak so you end near the beach. Total is now ₹68,400 per person.",
+          "createdAt": "2026-10-13T15:33:03.560Z"
+        }
+      ],
+      "savedActivityIds": [
+        "balinese-cooking"
+      ],
+      "isSample": true
+    },
+    {
+      "id": "trip_5jsr7rx1",
+      "userId": "usr_848212e1e60a",
+      "title": "Udaipur",
+      "subtitle": "4 days · 2 travellers · from Mumbai",
+      "status": "upcoming",
+      "createdAt": "2026-11-12T15:33:04.366Z",
+      "updatedAt": "2026-11-12T15:33:04.366Z",
+      "brief": {
+        "originCity": "Mumbai",
+        "originCode": "BOM",
+        "destinationQuery": "Udaipur",
+        "cityIds": [
+          "udaipur"
+        ],
+        "startDate": "2026-12-12",
+        "days": 4,
+        "travelers": 2,
+        "budgetPerPerson": 35000,
+        "interests": [
+          "culture",
+          "food",
+          "nature"
+        ],
+        "hotelClass": "comfort",
+        "pace": "balanced",
+        "avoidEarlyMornings": false
+      },
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Evening_view%2C_City_Palace%2C_Udaipur.jpg/1920px-Evening_view%2C_City_Palace%2C_Udaipur.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-15",
+      "travelers": 2,
+      "cities": [
+        {
+          "cityId": "udaipur",
+          "name": "Udaipur",
+          "nights": 4
+        }
+      ],
+      "flights": [
+        {
+          "id": "out-BOMUDR-2026-12-12-3",
+          "carrier": "SQ",
+          "carrierName": "Singapore Airlines",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T08:55:00.000Z",
+          "arriveAt": "2026-12-12T20:39:00.000Z",
+          "durationMin": 704,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "SIN",
+              "minutes": 81
+            },
+            {
+              "airport": "SIN",
+              "minutes": 121
+            }
+          ],
+          "price": 3000,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 5,
+          "tags": [
+            "cheapest"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "SIN",
+              "departAt": "2026-12-12T08:55:00.000Z",
+              "arriveAt": "2026-12-12T11:19:00.000Z",
+              "carrier": "SQ",
+              "carrierName": "Singapore Airlines",
+              "flightNo": "SQ 103",
+              "durationMin": 144
+            },
+            {
+              "from": "SIN",
+              "to": "SIN",
+              "departAt": "2026-12-12T12:40:00.000Z",
+              "arriveAt": "2026-12-12T15:04:00.000Z",
+              "carrier": "SQ",
+              "carrierName": "Singapore Airlines",
+              "flightNo": "SQ 214",
+              "durationMin": 144
+            },
+            {
+              "from": "SIN",
+              "to": "UDR",
+              "departAt": "2026-12-12T17:05:00.000Z",
+              "arriveAt": "2026-12-12T19:29:00.000Z",
+              "carrier": "SQ",
+              "carrierName": "Singapore Airlines",
+              "flightNo": "SQ 166",
+              "durationMin": 144
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 81
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-1",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T09:40:00.000Z",
+          "arriveAt": "2026-12-12T22:00:00.000Z",
+          "durationMin": 740,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "DXB",
+              "minutes": 93
+            },
+            {
+              "airport": "DXB",
+              "minutes": 76
+            }
+          ],
+          "price": 3100,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": true,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "DXB",
+              "departAt": "2026-12-12T09:40:00.000Z",
+              "arriveAt": "2026-12-12T12:16:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 842",
+              "durationMin": 156
+            },
+            {
+              "from": "DXB",
+              "to": "DXB",
+              "departAt": "2026-12-12T13:49:00.000Z",
+              "arriveAt": "2026-12-12T16:25:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 417",
+              "durationMin": 156
+            },
+            {
+              "from": "DXB",
+              "to": "UDR",
+              "departAt": "2026-12-12T17:41:00.000Z",
+              "arriveAt": "2026-12-12T20:17:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 611",
+              "durationMin": 156
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 81
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-4",
+          "carrier": "EY",
+          "carrierName": "Etihad",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T10:55:00.000Z",
+          "arriveAt": "2026-12-12T18:05:00.000Z",
+          "durationMin": 430,
+          "stops": 2,
+          "layovers": [
+            {
+              "airport": "AUH",
+              "minutes": 80
+            },
+            {
+              "airport": "DXB",
+              "minutes": 83
+            }
+          ],
+          "price": 3200,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "AUH",
+              "departAt": "2026-12-12T10:55:00.000Z",
+              "arriveAt": "2026-12-12T11:48:00.000Z",
+              "carrier": "EY",
+              "carrierName": "Etihad",
+              "flightNo": "EY 751",
+              "durationMin": 53
+            },
+            {
+              "from": "AUH",
+              "to": "DXB",
+              "departAt": "2026-12-12T13:08:00.000Z",
+              "arriveAt": "2026-12-12T14:01:00.000Z",
+              "carrier": "EY",
+              "carrierName": "Etihad",
+              "flightNo": "EY 190",
+              "durationMin": 53
+            },
+            {
+              "from": "DXB",
+              "to": "UDR",
+              "departAt": "2026-12-12T15:24:00.000Z",
+              "arriveAt": "2026-12-12T16:17:00.000Z",
+              "carrier": "EY",
+              "carrierName": "Etihad",
+              "flightNo": "EY 788",
+              "durationMin": 53
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 81
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-7",
+          "carrier": "CX",
+          "carrierName": "Cathay Pacific",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T13:45:00.000Z",
+          "arriveAt": "2026-12-12T17:09:00.000Z",
+          "durationMin": 204,
+          "stops": 1,
+          "layovers": [
+            {
+              "airport": "HKG",
+              "minutes": 298
+            }
+          ],
+          "price": 3400,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "seatsLeft": 3,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "HKG",
+              "departAt": "2026-12-12T13:45:00.000Z",
+              "arriveAt": "2026-12-12T13:57:00.000Z",
+              "carrier": "CX",
+              "carrierName": "Cathay Pacific",
+              "flightNo": "CX 342",
+              "durationMin": 12
+            },
+            {
+              "from": "HKG",
+              "to": "UDR",
+              "departAt": "2026-12-12T18:55:00.000Z",
+              "arriveAt": "2026-12-12T19:07:00.000Z",
+              "carrier": "CX",
+              "carrierName": "Cathay Pacific",
+              "flightNo": "CX 923",
+              "durationMin": 12
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 81
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-5",
+          "carrier": "MH",
+          "carrierName": "Malaysia Airlines",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T20:00:00.000Z",
+          "arriveAt": "2026-12-13T01:18:00.000Z",
+          "durationMin": 318,
+          "stops": 1,
+          "layovers": [
+            {
+              "airport": "KUL",
+              "minutes": 82
+            }
+          ],
+          "price": 3800,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "KUL",
+              "departAt": "2026-12-12T20:00:00.000Z",
+              "arriveAt": "2026-12-12T21:09:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 376",
+              "durationMin": 69
+            },
+            {
+              "from": "KUL",
+              "to": "UDR",
+              "departAt": "2026-12-12T22:31:00.000Z",
+              "arriveAt": "2026-12-12T23:40:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 233",
+              "durationMin": 69
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 81
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-8",
+          "carrier": "MH",
+          "carrierName": "Malaysia Airlines",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T20:25:00.000Z",
+          "arriveAt": "2026-12-12T22:01:00.000Z",
+          "durationMin": 96,
+          "stops": 0,
+          "layovers": [],
+          "price": 4000,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "UDR",
+              "departAt": "2026-12-12T20:25:00.000Z",
+              "arriveAt": "2026-12-12T22:01:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 435",
+              "durationMin": 96
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 69
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-0",
+          "carrier": "CX",
+          "carrierName": "Cathay Pacific",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T08:45:00.000Z",
+          "arriveAt": "2026-12-12T10:21:00.000Z",
+          "durationMin": 96,
+          "stops": 0,
+          "layovers": [],
+          "price": 4100,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "tags": [
+            "fastest",
+            "recommended"
+          ],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "UDR",
+              "departAt": "2026-12-12T08:45:00.000Z",
+              "arriveAt": "2026-12-12T10:21:00.000Z",
+              "carrier": "CX",
+              "carrierName": "Cathay Pacific",
+              "flightNo": "CX 709",
+              "durationMin": 96
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 69
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-6",
+          "carrier": "MH",
+          "carrierName": "Malaysia Airlines",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T14:55:00.000Z",
+          "arriveAt": "2026-12-12T21:27:00.000Z",
+          "durationMin": 392,
+          "stops": 1,
+          "layovers": [
+            {
+              "airport": "KUL",
+              "minutes": 217
+            }
+          ],
+          "price": 4200,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "20 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "KUL",
+              "departAt": "2026-12-12T14:55:00.000Z",
+              "arriveAt": "2026-12-12T16:41:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 116",
+              "durationMin": 106
+            },
+            {
+              "from": "KUL",
+              "to": "UDR",
+              "departAt": "2026-12-12T20:18:00.000Z",
+              "arriveAt": "2026-12-12T22:04:00.000Z",
+              "carrier": "MH",
+              "carrierName": "Malaysia Airlines",
+              "flightNo": "MH 252",
+              "durationMin": 106
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 81
+        },
+        {
+          "id": "out-BOMUDR-2026-12-12-2",
+          "carrier": "EK",
+          "carrierName": "Emirates",
+          "from": "BOM",
+          "to": "UDR",
+          "departAt": "2026-12-12T09:25:00.000Z",
+          "arriveAt": "2026-12-12T11:01:00.000Z",
+          "durationMin": 96,
+          "stops": 0,
+          "layovers": [],
+          "price": 4300,
+          "cabin": "economy",
+          "baggage": {
+            "cabin": "7 kg",
+            "checked": "25 kg"
+          },
+          "refundable": false,
+          "tags": [],
+          "segments": [
+            {
+              "from": "BOM",
+              "to": "UDR",
+              "departAt": "2026-12-12T09:25:00.000Z",
+              "arriveAt": "2026-12-12T11:01:00.000Z",
+              "carrier": "EK",
+              "carrierName": "Emirates",
+              "flightNo": "EK 852",
+              "durationMin": 96
+            }
+          ],
+          "source": "mock",
+          "carbonKg": 69
+        }
+      ],
+      "selectedFlightId": "out-BOMUDR-2026-12-12-0",
+      "returnFlight": {
+        "id": "out-UDRBOM-2026-12-16-5",
+        "carrier": "UK",
+        "carrierName": "Vistara",
+        "from": "UDR",
+        "to": "BOM",
+        "departAt": "2026-12-16T21:15:00.000Z",
+        "arriveAt": "2026-12-16T22:51:00.000Z",
+        "durationMin": 96,
+        "stops": 0,
+        "layovers": [],
+        "price": 3900,
+        "cabin": "economy",
+        "baggage": {
+          "cabin": "7 kg",
+          "checked": "25 kg"
+        },
+        "refundable": false,
+        "tags": [
+          "fastest",
+          "recommended"
+        ],
+        "segments": [
+          {
+            "from": "UDR",
+            "to": "BOM",
+            "departAt": "2026-12-16T21:15:00.000Z",
+            "arriveAt": "2026-12-16T22:51:00.000Z",
+            "carrier": "UK",
+            "carrierName": "Vistara",
+            "flightNo": "UK 750",
+            "durationMin": 96
+          }
+        ],
+        "source": "mock",
+        "carbonKg": 69
+      },
+      "hotels": [
+        {
+          "id": "udaipur-h3",
+          "name": "Gangaur Ghat Guesthouse",
+          "cityId": "udaipur",
+          "area": "Gangaur Ghat",
+          "address": "Gangaur Ghat, udaipur",
+          "lat": 24.5803,
+          "lng": 73.6832,
+          "stars": 2,
+          "rating": 8.8,
+          "reviewCount": 840,
+          "pricePerNight": 2600,
+          "propertyType": "hostel",
+          "tier": "budget",
+          "amenities": [
+            "Free Wi-Fi",
+            "Breakfast",
+            "Rooftop",
+            "Lake view"
+          ],
+          "images": [
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "description": "A cheerful guesthouse right on the ghats, with a rooftop that beats every paid viewpoint in the city.",
+          "distanceToCenterKm": 0.05,
+          "nearby": [
+            {
+              "name": "Gangaur Ghat",
+              "km": 0.05
+            },
+            {
+              "name": "City Palace",
+              "km": 0.4
+            },
+            {
+              "name": "Ambrai",
+              "km": 0.2
+            }
+          ],
+          "rooms": [
+            {
+              "name": "Standard double",
+              "price": 2600,
+              "sleeps": 2,
+              "breakfast": false,
+              "refundable": true
+            },
+            {
+              "name": "Superior double",
+              "price": 3328,
+              "sleeps": 2,
+              "breakfast": true,
+              "refundable": true
+            },
+            {
+              "name": "Junior suite",
+              "price": 4810,
+              "sleeps": 3,
+              "breakfast": true,
+              "refundable": false
+            }
+          ],
+          "cancellation": "Free cancellation until 48 hours before check-in. After that, first night is charged.",
+          "source": "mock",
+          "score": 71.1,
+          "reasons": [
+            "Walks to City Palace & Crystal Gallery",
+            "Breakfast included"
+          ]
+        }
+      ],
+      "hotelSelections": {
+        "udaipur": "udaipur-h3"
+      },
+      "selectedHotelId": "udaipur-h3",
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "2026-12-12",
+          "cityId": "udaipur",
+          "cityName": "Udaipur",
+          "title": "Arrive in Udaipur, ease in around Lake Pichola",
+          "summary": "Land, check in and keep the first day light — one anchor sight plus an easy dinner near your hotel.",
+          "activities": [
+            {
+              "id": "act_city-palace-udaipur_afternoon_n2j1",
+              "poiId": "city-palace-udaipur",
+              "name": "City Palace & Crystal Gallery",
+              "cityId": "udaipur",
+              "slot": "afternoon",
+              "startTime": "14:00",
+              "durationMin": 180,
+              "costINR": 400,
+              "category": "museum",
+              "area": "Lake Pichola",
+              "lat": 24.5764,
+              "lng": 73.6835,
+              "description": "A rambling palace of mirrored rooms and lake terraces. Go at 09:00 before the tour buses.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Udaipur_City_Palace.jpg/1920px-Udaipur_City_Palace.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_amba-mata_evening_incx",
+              "poiId": "amba-mata",
+              "name": "Ambrai ghat rooftop dinner",
+              "cityId": "udaipur",
+              "slot": "evening",
+              "startTime": "17:21",
+              "durationMin": 120,
+              "costINR": 1800,
+              "category": "food",
+              "area": "Hanuman Ghat",
+              "lat": 24.5786,
+              "lng": 73.6816,
+              "description": "Dinner across the water from the lit City Palace — the best table in the city. Book a lakeside seat.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Udaipur_Lake_India.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "transport": {
+                "mode": "walk",
+                "minutes": 6,
+                "costINR": 0,
+                "note": "0.0 km walk"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 4216,
+          "weather": {
+            "highC": 24,
+            "lowC": 10,
+            "rainMm": 5,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": "Airport transfer is included in your transport budget."
+        },
+        {
+          "day": 2,
+          "date": "2026-12-13",
+          "cityId": "udaipur",
+          "cityName": "Udaipur",
+          "title": "Sajjangarh & Gangaur Ghat — Sajjangarh Monsoon Palace viewpoint",
+          "summary": "Sajjangarh Monsoon Palace viewpoint → Bagore ki Haveli folk dance show → Lake Pichola sunset boat & Jag Mandir. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_monsoon-palace_morning_8gk2",
+              "poiId": "monsoon-palace",
+              "name": "Sajjangarh Monsoon Palace viewpoint",
+              "cityId": "udaipur",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 120,
+              "costINR": 250,
+              "category": "viewpoint",
+              "area": "Sajjangarh",
+              "lat": 24.5937,
+              "lng": 73.6397,
+              "description": "Hilltop palace above the Aravallis; the drive up through the sanctuary is half the fun.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Monsoon_Palace.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "provenance": "ai"
+            },
+            {
+              "id": "act_bagore-ki-haveli_morning_nxyn",
+              "poiId": "bagore-ki-haveli",
+              "name": "Bagore ki Haveli folk dance show",
+              "cityId": "udaipur",
+              "slot": "morning",
+              "startTime": "11:36",
+              "durationMin": 90,
+              "costINR": 200,
+              "category": "experience",
+              "area": "Gangaur Ghat",
+              "lat": 24.5806,
+              "lng": 73.6836,
+              "description": "Nightly 19:00 Ghoomar and puppetry performance in a lakeside haveli courtyard. Arrive 20 minutes early.",
+              "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80",
+              "transport": {
+                "mode": "metro",
+                "minutes": 21,
+                "costINR": 70,
+                "note": "5.0 km by metro"
+              },
+              "provenance": "ai"
+            },
+            {
+              "id": "act_lake-pichola_afternoon_831y",
+              "poiId": "lake-pichola",
+              "name": "Lake Pichola sunset boat & Jag Mandir",
+              "cityId": "udaipur",
+              "slot": "afternoon",
+              "startTime": "13:34",
+              "durationMin": 90,
+              "costINR": 700,
+              "category": "experience",
+              "area": "Lake Pichola",
+              "lat": 24.5722,
+              "lng": 73.6802,
+              "description": "A 45-minute boat to the island palace as the lake turns gold. The definitive Udaipur moment.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Udaipur_Lake_India.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+              "transport": {
+                "mode": "walk",
+                "minutes": 13,
+                "costINR": 0,
+                "note": "1.0 km walk"
+              },
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 3236,
+          "weather": {
+            "highC": 24,
+            "lowC": 10,
+            "rainMm": 5,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": ""
+        },
+        {
+          "day": 3,
+          "date": "2026-12-14",
+          "cityId": "udaipur",
+          "cityName": "Udaipur",
+          "title": "Outside Surajpole — Saheliyon-ki-Bari gardens",
+          "summary": "Saheliyon-ki-Bari gardens. Grouped to keep travel under 20 minutes between stops.",
+          "activities": [
+            {
+              "id": "act_saheliyon-ki-bari_morning_xnpn",
+              "poiId": "saheliyon-ki-bari",
+              "name": "Saheliyon-ki-Bari gardens",
+              "cityId": "udaipur",
+              "slot": "morning",
+              "startTime": "09:00",
+              "durationMin": 75,
+              "costINR": 100,
+              "category": "nature",
+              "area": "Outside Surajpole",
+              "lat": 24.6005,
+              "lng": 73.6873,
+              "description": "Lotus pools, fountains and marble elephants in a quiet royal garden built for the queen’s friends.",
+              "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Saheliyon-ki-Bari_Fountain.JPG/1920px-Saheliyon-ki-Bari_Fountain.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+              "provenance": "ai"
+            }
+          ],
+          "dailyCostINR": 2116,
+          "weather": {
+            "highC": 24,
+            "lowC": 10,
+            "rainMm": 5,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": ""
+        },
+        {
+          "day": 4,
+          "date": "2026-12-15",
+          "cityId": "udaipur",
+          "cityName": "Udaipur",
+          "title": "Final morning in Udaipur & departure",
+          "summary": ". Grouped to keep travel under 20 minutes between stops.",
+          "activities": [],
+          "dailyCostINR": 2016,
+          "weather": {
+            "highC": 24,
+            "lowC": 10,
+            "rainMm": 5,
+            "summary": "Mostly dry and clear",
+            "source": "estimated"
+          },
+          "notes": ""
+        }
+      ],
+      "budget": {
+        "currency": "INR",
+        "totalBudget": 70000,
+        "estimatedTotal": 61200,
+        "perPerson": 30600,
+        "daily": 15300,
+        "categories": [
+          {
+            "key": "flights",
+            "label": "Flights",
+            "perPerson": 8000,
+            "total": 16000,
+            "note": "Round trip, per person",
+            "provenance": "mock"
+          },
+          {
+            "key": "stay",
+            "label": "Accommodation",
+            "perPerson": 5200,
+            "total": 10400,
+            "note": "4 nights · 1 room",
+            "provenance": "mock"
+          },
+          {
+            "key": "food",
+            "label": "Food & dining",
+            "perPerson": 7680,
+            "total": 15360,
+            "note": "Breakfast + lunch + dinner daily",
+            "provenance": "estimated"
+          },
+          {
+            "key": "transport",
+            "label": "Local transport",
+            "perPerson": 1670,
+            "total": 3340,
+            "note": "Metro, taxis and airport transfers",
+            "provenance": "estimated"
+          },
+          {
+            "key": "activities",
+            "label": "Activities & experiences",
+            "perPerson": 3450,
+            "total": 6900,
+            "note": "Entry tickets and tours",
+            "provenance": "estimated"
+          },
+          {
+            "key": "shopping",
+            "label": "Shopping",
+            "perPerson": 2100,
+            "total": 4200,
+            "note": "Suggested allowance",
+            "provenance": "estimated"
+          },
+          {
+            "key": "misc",
+            "label": "Visa, insurance & eSIM",
+            "perPerson": 2500,
+            "total": 5000,
+            "note": "IN entry costs",
+            "provenance": "estimated"
+          }
+        ],
+        "warnings": [],
+        "savings": [
+          {
+            "title": "Eat breakfast at markets and konbini",
+            "detail": "Two meals a day from markets instead of restaurants saves this without hurting the trip.",
+            "savingINR": 4800
+          },
+          {
+            "title": "Switch to Singapore Airlines (2 stop)",
+            "detail": "Same route, lower fare. You lose a little timing convenience.",
+            "savingINR": 4000
+          },
+          {
+            "title": "Trim the shopping allowance by half",
+            "detail": "Keeps the experiences, cuts the impulse buys.",
+            "savingINR": 2100
+          }
+        ],
+        "provenance": "estimated"
+      },
+      "sources": [
+        {
+          "label": "Weather source",
+          "provenance": "estimated",
+          "detail": "Forecast window not open yet — using 10-year climate normals for your month."
+        },
+        {
+          "label": "Flight data",
+          "provenance": "mock",
+          "detail": "Demo fare engine. Connect Amadeus credentials in .env to show live availability."
+        },
+        {
+          "label": "Visa & entry",
+          "provenance": "estimated",
+          "detail": "Domestic trip — no visa needed."
+        },
+        {
+          "label": "Safety snapshot",
+          "provenance": "ai",
+          "detail": "safe — Very safe and walkable around the lake. Usual India cautions for water, autos and crowds."
+        }
+      ],
+      "bookingRefs": [],
+      "packingList": [
+        {
+          "title": "Essentials",
+          "items": [
+            {
+              "label": "Passport + visa printout"
+            },
+            {
+              "label": "Travel insurance policy"
+            },
+            {
+              "label": "Cards + ₹8,000 equivalent cash"
+            },
+            {
+              "label": "Phone + charger + power bank"
+            },
+            {
+              "label": "Universal power adapter"
+            },
+            {
+              "label": "eSIM installed before departure"
+            }
+          ]
+        },
+        {
+          "title": "Clothing",
+          "items": [
+            {
+              "label": "Comfortable walking shoes (broken in)"
+            },
+            {
+              "label": "One smart-casual outfit for dinners"
+            }
+          ]
+        },
+        {
+          "title": "Day bag",
+          "items": [
+            {
+              "label": "Refillable water bottle"
+            },
+            {
+              "label": "Sunscreen SPF 50"
+            },
+            {
+              "label": "Hand sanitiser & tissues"
+            },
+            {
+              "label": "Reusable shopping tote"
+            }
+          ]
+        },
+        {
+          "title": "Health & documents",
+          "items": [
+            {
+              "label": "Personal medication + prescription"
+            },
+            {
+              "label": "ORS sachets & basic first aid"
+            },
+            {
+              "label": "Printed hotel confirmations"
+            },
+            {
+              "label": "Emergency contact card"
+            }
+          ]
+        }
+      ],
+      "messages": [],
+      "savedActivityIds": [],
+      "isSample": true
+    }
+  ],
+  "conversations": [],
+  "documents": []
+}
