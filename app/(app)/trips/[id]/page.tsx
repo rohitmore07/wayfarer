@@ -3,6 +3,8 @@ import { getCurrentUser } from '@/lib/auth/session';
 import { getTrip } from '@/lib/db/store';
 import { TripDetailClient } from '@/components/trips/TripDetailClient';
 
+export const dynamic = 'force-dynamic';
+
 export default async function TripPage({ params }: { params: Promise<{ id: string }> }) {
   const user = await getCurrentUser();
   if (!user) redirect('/login');

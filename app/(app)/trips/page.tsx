@@ -4,6 +4,8 @@ import { TripsDashboard } from '@/components/trips/TripsDashboard';
 import { getCurrentUser } from '@/lib/auth/session';
 import { listTrips } from '@/lib/db/store';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'My trips — Wayfarer' };
 
 export default async function TripsPage() {

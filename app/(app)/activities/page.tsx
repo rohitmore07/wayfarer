@@ -1,6 +1,8 @@
 import { PageHeader } from '@/components/layout/AppShell';
 import { ActivityExplorer } from '@/components/search/ActivityExplorer';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'Experiences — Wayfarer' };
 
 export default async function ActivitiesPage({ searchParams }: { searchParams: Promise<{ city?: string }> }) {

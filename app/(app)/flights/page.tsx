@@ -3,6 +3,8 @@ import { PageHeader } from '@/components/layout/AppShell';
 import { FlightSearch } from '@/components/search/FlightSearch';
 import { cityById } from '@/lib/data/cities';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'Flight search — Wayfarer' };
 
 export default async function FlightsPage({ searchParams }: { searchParams: Promise<{ to?: string }> }) {

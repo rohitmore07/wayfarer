@@ -8,6 +8,8 @@ import { listTrips } from '@/lib/db/store';
 import { budgetUtilisation } from '@/lib/agent/budget';
 import { cn, fmtDate, inr } from '@/lib/utils';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'Budget planner — Wayfarer' };
 
 export default async function BudgetPage() {

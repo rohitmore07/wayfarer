@@ -1,6 +1,8 @@
 import { PageHeader } from '@/components/layout/AppShell';
 import { HotelSearch } from '@/components/search/HotelSearch';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'Hotels & stays — Wayfarer' };
 
 export default async function HotelsPage({ searchParams }: { searchParams: Promise<{ city?: string }> }) {

@@ -5,6 +5,8 @@ import { getCurrentUser } from '@/lib/auth/session';
 import { listTrips } from '@/lib/db/store';
 import { cityById } from '@/lib/data/cities';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'Profile & settings — Wayfarer' };
 
 export default async function ProfilePage() {

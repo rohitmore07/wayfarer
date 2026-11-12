@@ -1,6 +1,8 @@
 import { PageHeader } from '@/components/layout/AppShell';
 import { ExploreClient } from '@/components/explore/ExploreClient';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'Destination explorer — Wayfarer' };
 
 export default function ExplorePage() {

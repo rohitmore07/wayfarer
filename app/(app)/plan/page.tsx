@@ -1,6 +1,8 @@
 import { PlannerWorkspace } from '@/components/agent/PlannerWorkspace';
 import { getCurrentUser } from '@/lib/auth/session';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = { title: 'AI trip planner — Wayfarer' };
 
 export default async function PlanPage({
