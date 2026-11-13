@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import './load-env';
-=======
->>>>>>> 8a25347448e192e15db8aeea69d145a1eb445414
 import { ensureDemoUser, listTrips, saveTrip } from '../lib/db/store';
 import { planTrip } from '../lib/agent/orchestrator';
 import { buildTripFromPlan } from '../lib/trips';

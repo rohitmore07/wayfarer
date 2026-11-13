@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import './load-env';
-=======
->>>>>>> 8a25347448e192e15db8aeea69d145a1eb445414
 import { planTrip, refinePlan } from '../lib/agent/orchestrator';
 
 async function main() {
