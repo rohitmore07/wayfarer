@@ -10,6 +10,7 @@ A conversational travel-planning agent. You describe the trip you want in plain 
 
 ```bash
 npm install
+<<<<<<< HEAD
 ```
 
 **Database (required).** Create a PostgreSQL database (for example a free Neon project, or a local Postgres), then copy `.env.example` to `.env.local` in the project root and set `DATABASE_URL`:
@@ -21,6 +22,8 @@ DATABASE_URL=postgres://user:password@host/dbname?sslmode=verify-full
 On Windows, make sure the file is named `.env.local` and not `.env.local.txt`. Restart the dev server after any change to this file.
 
 ```bash
+=======
+>>>>>>> 8a25347448e192e15db8aeea69d145a1eb445414
 npm run seed      # optional: creates the demo user + three sample trips (idempotent)
 npm run dev       # http://localhost:3000
 ```
@@ -38,7 +41,11 @@ Useful scripts:
 | Script | What it does |
 | --- | --- |
 | `npm run typecheck` | `tsc --noEmit` |
+<<<<<<< HEAD
 | `npm run seed` | Seeds the demo user and three trips into the Postgres database named by `DATABASE_URL` |
+=======
+| `npm run seed` | Seeds the demo user and three trips into `data/db.json` |
+>>>>>>> 8a25347448e192e15db8aeea69d145a1eb445414
 | `npx tsx scripts/smoke.ts` | Headless run of the agent: plans the Japan brief, then applies a "make it cheaper" refinement and prints the diff |
 | `node scripts/audit.mjs` | Playwright pass over every page (desktop + mobile): screenshots, console errors, overflow, broken images |
 | `node scripts/flow.mjs` | End-to-end agent run in a real browser: types the Japan brief, waits for the plan, then applies "make it cheaper" |
